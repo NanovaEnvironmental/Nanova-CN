@@ -1,0 +1,1 @@
+export const LOGO_IMG = 'assets/Nanova-Env-logo.png';
