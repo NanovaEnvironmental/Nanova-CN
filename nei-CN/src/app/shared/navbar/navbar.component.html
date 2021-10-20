@@ -1,1 +1,29 @@
-<p>navbar works!</p>
+<mat-toolbar class="toolbar" class="mat-elevation-z2">
+    <mat-toolbar-row class="branding-container" fxLayout="row" fxLayoutAlign="start center">
+        <a href="/">
+            <img [src]="navImage" class="navLogo">
+        </a>
+         
+        <span>Tel: +86 (0574)88003102</span>
+        
+    </mat-toolbar-row>
+    <mat-toolbar-row class="headmenu-container" fxLayout="row" fxLayoutAlign="space-between center">
+        <div class="head-menu">
+            <button mat-button>主页</button>
+            <button mat-button>产品</button>
+                <button mat-button [matMenuTriggerFor]="animals">应用</button>
+                <mat-menu #animals="matMenu">
+                    <button mat-menu-item>Vertebrates</button>
+                    <button mat-menu-item>Invertebrates</button>
+                </mat-menu> 
+            <button mat-button>资源</button>
+            <button mat-button>常见问题</button>
+            <button mat-button>服务与支持</button>
+            <button mat-button>新闻事件</button>
+            <button mat-button>联系我们</button>
+            <button mat-button>关于</button>           
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+
