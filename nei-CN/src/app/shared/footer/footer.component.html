@@ -1,1 +1,58 @@
-<p>footer works!</p>
+<footer>
+    <div class="prefooter">  
+        <div class="footer-blocks" fxLayout fxLayoutAlign="center start">
+            <div class="col-md-3 col-sm-6" fxLayoutAlign="center center">
+                <img [src]="footImg">
+            </div>
+            <div class="col-md-3 col-sm-6 block">
+                <ul>
+                    <li><h4>联系我们</h4></li>
+                    <li>周一至周五，8AM-5PM</li>
+                    <li>电话：+1 (573)476-6355</li>
+                    <li>地址：北京市，海淀区，马甸路19号，金澳国际，2809</li>
+                    <li style="margin-top: 5px;" fxLayout fxLayoutAlign="start start">
+                        <a href="https://twitter.com/NanovaEnv">
+                            <img [src]="twitterImg">
+                        </a>
+                        <a href="https://www.facebook.com/NanovaEnv">
+                            <img [src]="faceBookImg">
+                        </a>
+                        <a href="https://www.linkedin.com/company/nanovaenvironmental">
+                            <img [src]="linkedInImg">
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCTuycpYQVaKBKt1arZRpG2Q">
+                            <img [src]="youTubeImg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 block">
+                <ul>
+                    <li><h4>快速链接</h4></li>
+                    <li><a href="">新闻与事件</a></li>
+                    <li><a href="">常见问题</a></li>
+                    <li><a href="">客户服务</a></li>
+                    <li><a href="">技术支持</a></li>
+
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 block">
+                <h4>订阅我们</h4>
+                <form fxLayout="column" fxLayoutAlign="center center">
+                    <mat-form-field appearance="fill">
+                      <mat-label>Email</mat-label>
+                      <input type="email" matInput placeholder="Ex. pat@example.com">
+                    </mat-form-field>
+                </form>
+                
+                <button mat-button>订阅</button>
+                   
+            </div>
+        </div>
+    </div>
+    <div class="postfooter">
+        <div class="container">
+            {{ copyRight }}
+        </div>
+    </div>
+</footer>
