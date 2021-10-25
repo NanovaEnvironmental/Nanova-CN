@@ -6,3 +6,7 @@ export const LINKEDIN_IMG = 'assets/Linkedin.png';
 export const TWITTER_IMG = 'assets/Twitter.png';
 export const YOUTUBE_IMG = 'assets/YouTube.png';
 export const COPY_RIGHT = 'Copyright © 2021 Nanova Environmental, Inc. All Rights Reserved.'
+export const MAIN_BG_IMG = 'assets/mainpage-background.png';
+export const COMPACKT_GC = 'assets/Compact-GC.png';
+export const ONLINE_MONITORING = 'assets/Online-Monitoring.png';
+export const SENSORS = 'assets/Sensors.png'

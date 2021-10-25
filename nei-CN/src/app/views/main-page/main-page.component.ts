@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { COMPACKT_GC, MAIN_BG_IMG, ONLINE_MONITORING, SENSORS } from 'src/app/constants';
 
 @Component({
   selector: 'app-main-page',
@@ -6,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-page.component.scss']
 })
 export class MainPageComponent implements OnInit {
+  bgImg = MAIN_BG_IMG;
+  gcImg = COMPACKT_GC;
+  omImg = ONLINE_MONITORING;
+  sensorsImg = SENSORS;
 
   constructor() { }
 
