@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {RouterModule} from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,9 +11,7 @@ import { ProductsComponent } from './views/products/products.component';
 import { ApplicationsComponent } from './views/applications/applications.component';
 import { ServiceSupportComponent } from './views/service-support/service-support/service-support.component';
 import { NewsAndEventsComponent } from './views/news-and-events/news-and-events.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
-import { FlexLayoutModule } from '@angular/flex-layout';
 import { SharedModule } from './shared/shared.module';
 
 @NgModule({
@@ -29,7 +30,8 @@ import { SharedModule } from './shared/shared.module';
     MaterialModule,
     FlexLayoutModule,
     SharedModule, //need to be modified
-    MaterialModule
+    MaterialModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

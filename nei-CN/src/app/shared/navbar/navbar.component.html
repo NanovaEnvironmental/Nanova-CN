@@ -9,19 +9,109 @@
     </mat-toolbar-row>
     <mat-toolbar-row class="headmenu-container" fxLayout="row" fxLayoutAlign="space-between center">
         <div class="head-menu">
-            <button mat-button>主页</button>
-            <button mat-button>产品</button>
-                <button mat-button [matMenuTriggerFor]="animals">应用</button>
-                <mat-menu #animals="matMenu">
-                    <button mat-menu-item>Vertebrates</button>
-                    <button mat-menu-item>Invertebrates</button>
+            <button mat-button routerLink="/">主页</button>
+            <button mat-button [matMenuTriggerFor]="products">产品</button>
+                <mat-menu #products="matMenu">
+                    <button mat-menu-item [matMenuTriggerFor]="gc">1</button>
+                    <button mat-menu-item [matMenuTriggerFor]="spectroscopy">2</button>
+                    <button mat-menu-item [matMenuTriggerFor]="ir">3</button>
+                    <button mat-menu-item [matMenuTriggerFor]="gsb">4</button>
+                </mat-menu>
+                
+                <mat-menu #gc="matMenu">
+                    <button mat-menu-item>1.1</button>
+                    <button mat-menu-item>1.2</button>
+                    <button mat-menu-item>1.3</button>
                 </mat-menu> 
-            <button mat-button>资源</button>
-            <button mat-button>常见问题</button>
-            <button mat-button>服务与支持</button>
+
+                <mat-menu #spectroscopy="matMenu">
+                    <button mat-menu-item>2.1</button>
+                </mat-menu> 
+
+                <mat-menu #ir="matMenu">
+                    <button mat-menu-item>1.1</button>
+                    <button mat-menu-item>1.2</button>
+                    <button mat-menu-item>1.3</button>
+                </mat-menu> 
+
+                <mat-menu #gsb="matMenu">
+                    <button mat-menu-item>4.1</button>
+                </mat-menu> 
+
+            <button mat-button [matMenuTriggerFor]="application">应用</button>
+                <mat-menu #application="matMenu">
+                    <button mat-menu-item [matMenuTriggerFor]="a">1</button>
+                    <button mat-menu-item [matMenuTriggerFor]="b">2</button>
+                    <button mat-menu-item [matMenuTriggerFor]="c">3</button>
+                    <button mat-menu-item [matMenuTriggerFor]="d">4</button>
+                    <button mat-menu-item>5</button>
+                    <button mat-menu-item [matMenuTriggerFor]="e">6</button>
+                </mat-menu> 
+
+                <mat-menu #a="matMenu">
+                    <button mat-menu-item>1.1</button>
+                    <button mat-menu-item>1.2</button>
+                    <button mat-menu-item>1.3</button>
+                    <button mat-menu-item>1.4</button>
+                </mat-menu> 
+
+                <mat-menu #b="matMenu">
+                    <button mat-menu-item>2.1</button>
+                    <button mat-menu-item>2.2</button>
+                </mat-menu> 
+
+                <mat-menu #c="matMenu">
+                    <button mat-menu-item>3.1</button>
+                    <button mat-menu-item>3.2</button>
+                    <button mat-menu-item>3.3</button>
+                    <button mat-menu-item>3.4</button>
+                </mat-menu>
+
+                <mat-menu #d="matMenu">
+                    <button mat-menu-item>4.1</button>
+                    <button mat-menu-item>4.2</button>
+                </mat-menu> 
+
+                <mat-menu #e="matMenu">
+                    <button mat-menu-item>6.1</button>
+                    <button mat-menu-item>6.2</button>
+                </mat-menu> 
+            <button mat-button [matMenuTriggerFor]="resources">资源</button>
+                <mat-menu #resources="matMenu">
+                    <button mat-menu-item>1</button>
+                    <button mat-menu-item>2</button>
+                    <button mat-menu-item [matMenuTriggerFor]="tech">3</button>
+                </mat-menu>
+                <mat-menu #tech="matMenu">
+                    <button mat-menu-item>3.1</button>
+                </mat-menu> 
+
+            <button mat-button [matMenuTriggerFor]="qna">常见问题</button>
+                <mat-menu #qna="matMenu">
+                    <button mat-menu-item>1</button>
+                    <button mat-menu-item>2</button>
+                    <button mat-menu-item>3</button>
+                </mat-menu>
+            <button mat-button [matMenuTriggerFor]="support">服务与支持</button>
+                <mat-menu #support="matMenu">
+                    <button mat-menu-item routerLink="service-supports">服务与支持</button>
+                    <button mat-menu-item routerLink="tech-supports">技术支持</button>
+                </mat-menu>
             <button mat-button>新闻事件</button>
-            <button mat-button>联系我们</button>
-            <button mat-button>关于</button>           
+            <button mat-button [matMenuTriggerFor]="contact">联系我们</button>
+                <mat-menu #contact="matMenu">
+                    <button mat-menu-item>1</button>
+                    <button mat-menu-item>2</button>
+                    <button mat-menu-item>3</button>
+                </mat-menu>
+            <button mat-button [matMenuTriggerFor]="about">关于</button>  
+                <mat-menu #about="matMenu">
+                    <button mat-menu-item>1</button>
+                    <button mat-menu-item>2</button>
+                    <button mat-menu-item>3</button>
+                    <button mat-menu-item>4</button>
+                </mat-menu>
+                    
         </div>
     </mat-toolbar-row>
 </mat-toolbar>

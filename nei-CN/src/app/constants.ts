@@ -10,3 +10,4 @@ export const MAIN_BG_IMG = 'assets/mainpage-background.png';
 export const COMPACKT_GC = 'assets/Compact-GC.png';
 export const ONLINE_MONITORING = 'assets/Online-Monitoring.png';
 export const SENSORS = 'assets/Sensors.png'
+export const SUPPORT_BG = 'assets/support-bg.png'

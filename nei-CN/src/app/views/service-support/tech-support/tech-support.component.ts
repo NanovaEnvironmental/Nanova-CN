@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SUPPORT_BG } from 'src/app/constants';
 
 @Component({
   selector: 'app-tech-support',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tech-support.component.scss']
 })
 export class TechSupportComponent implements OnInit {
+  supportBgImg = SUPPORT_BG;
 
   constructor() { }
 
