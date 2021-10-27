@@ -1,1 +1,122 @@
-<p>distributors works!</p>
+<div class="hd-container">
+    <img [src]="bgImg" class="tp-bgimg">
+    <div class="tx-wrapper">
+        <div class="hd-hd"><h2>我们的经销商</h2></div>
+        <div>您可以通过我们的经销商找到我们的产品。</div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="colum row-content">
+        <h2>您附近的经销商</h2>
+        <h5>使用下面的菜单按国家/地区查看我们的分销合作伙伴。如果我们没有您所在国家/地区的经销商，请不要犹豫，直接与我们联系。</h5>
+        <div class="row">
+            <mat-accordion>
+                <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                    中国
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <p>Beijing LICA United Technology Ltd.
+                    Address:
+                    Building No.5, Guanghua Pioneer Park, Anningzhuang East Road, Haidian, Beijing
+                    Contact:
+                    Phone: 010-51292601
+                    Website: www.li-ca.com</p>
+                </mat-expansion-panel>
+            </mat-accordion>
+        </div>
+        <div class="row">
+          <mat-accordion>
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  捷克共和国、斯洛伐克共和国、匈牙利、克罗地亚、斯洛文尼亚
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              <p>Beijing LICA United Technology Ltd.
+                Address:
+                Building No.5, Guanghua Pioneer Park, Anningzhuang East Road, Haidian, Beijing
+                Contact:
+                Phone: 010-51292601
+                Website: www.li-ca.com</p>
+            </mat-expansion-panel>
+          </mat-accordion>
+        </div>
+        <div class="row">
+          <mat-accordion>
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  韩国：仁川、首尔、江原道、庆尚北道、大邱、蔚山
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+              <p>Beijing LICA United Technology Ltd.
+                Address:
+                Building No.5, Guanghua Pioneer Park, Anningzhuang East Road, Haidian, Beijing
+                Contact:
+                Phone: 010-51292601
+                Website: www.li-ca.com</p>
+            </mat-expansion-panel>
+          </mat-accordion>
+         </div>
+    </div>
+</div>
+<div style="background-color: #f8f8f8;" class="row-content">
+    <div class="column">
+        <div class="row">
+            <h2>成为我们的经销商</h2>
+            <h5>我们正在积极寻找新的分销合作伙伴。如果您认为您有能力支持我们的客户和您所在地区的市场，请联系我们。严禁投放广告</h5>
+            <form fxLayout="column" #f="ngForm" (ngSubmit)="onSubmit(f)">
+                
+                <mat-form-field appearance="fill">
+                  <mat-label>Your Name</mat-label>
+                  <input 
+                  type="text" 
+                  matInput 
+                  ngModel 
+                  name="name"
+                  required>
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Your Company</mat-label>
+                    <input 
+                    type="text" 
+                    matInput 
+                    ngModel 
+                    name="name"
+                    required>
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Your Official Website</mat-label>
+                    <input 
+                    type="text" 
+                    matInput 
+                    ngModel 
+                    name="website">
+                </mat-form-field>
+                <mat-form-field appearance="fill">
+                    <mat-label>Email</mat-label>
+                    <input 
+                    type="email" 
+                    matInput 
+                    placeholder="Ex. pat@example.com" 
+                    ngModel 
+                    name="email"
+                    required>
+                </mat-form-field>
+                
+                <button  type="submit" mat-raised-button color="primary">Submit</button>
+              </form>  
+        </div>
+    </div>
+</div>
+<div class="column">
+    <div class="row row-content">
+        <h2>发送邮件请求</h2>
+        <h5>您也可以通过电子邮件联系我们，询问有关我们的经销商或成为经销商的问题。</h5>
+        <span class="col-sm-2">联系我们</span> 
+    </div>   
+</div>
+
