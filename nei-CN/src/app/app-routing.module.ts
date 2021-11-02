@@ -7,7 +7,9 @@ import { JoinUsComponent } from './views/company/join-us/join-us.component';
 import { ContactUsComponent } from './views/contact/contact-us/contact-us.component';
 import { RequestMoreInfoComponent } from './views/contact/request-more-info/request-more-info.component';
 import { RequestQuoteComponent } from './views/contact/request-quote/request-quote.component';
+import { FaqsComponent } from './views/faqs/faqs.component';
 import { MainPageComponent } from './views/main-page/main-page.component';
+import { NewsAndEventsComponent } from './views/news-and-events/news-and-events.component';
 import { ServiceSupportComponent } from './views/service-support/service-support/service-support.component';
 import { TechSupportComponent } from './views/service-support/tech-support/tech-support.component';
 
@@ -22,6 +24,8 @@ const routes: Routes = [
   { path: 'request-more-info', component: RequestMoreInfoComponent },
   { path: 'request-quote', component: RequestQuoteComponent },
   { path: 'contact-us', component: ContactUsComponent},
+  { path: 'news-and-events', component: NewsAndEventsComponent},
+  { path: 'faqs', component: FaqsComponent}
  ];
 
 @NgModule({

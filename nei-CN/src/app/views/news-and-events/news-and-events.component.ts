@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { EVENTS, NEWS_EVENT_BG} from 'src/app/constants';
 
 @Component({
   selector: 'app-news-and-events',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./news-and-events.component.scss']
 })
 export class NewsAndEventsComponent implements OnInit {
+  bgImg = NEWS_EVENT_BG;
+  events = EVENTS;
 
   constructor() { }
 

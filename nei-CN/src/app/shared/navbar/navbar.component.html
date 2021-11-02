@@ -88,28 +88,28 @@
 
             <button mat-button [matMenuTriggerFor]="qna">常见问题</button>
                 <mat-menu #qna="matMenu">
-                    <button mat-menu-item>1</button>
-                    <button mat-menu-item>2</button>
-                    <button mat-menu-item>3</button>
+                    <button mat-menu-item routerLink="/faqs">P100</button>
+                    <button mat-menu-item routerLink="/faqs">P300</button>
+                    <button mat-menu-item routerLink="/faqs">A1000</button>
                 </mat-menu>
             <button mat-button [matMenuTriggerFor]="support">服务与支持</button>
                 <mat-menu #support="matMenu">
-                    <button mat-menu-item routerLink="service-supports">服务与支持</button>
-                    <button mat-menu-item routerLink="tech-supports">技术支持</button>
+                    <button mat-menu-item routerLink="/service-supports">售后服务</button>
+                    <button mat-menu-item routerLink="/tech-supports">技术支持</button>
                 </mat-menu>
-            <button mat-button>新闻事件</button>
+            <button mat-button routerLink="/news-and-events">最新要闻</button>
             <button mat-button [matMenuTriggerFor]="contact">联系我们</button>
                 <mat-menu #contact="matMenu">
-                    <button mat-menu-item>1</button>
-                    <button mat-menu-item>2</button>
-                    <button mat-menu-item>3</button>
+                    <button mat-menu-item routerLink="/request-more-info">更多信息</button>
+                    <button mat-menu-item routerLink="/request-quote">询价</button>
+                    <button mat-menu-item routerLink="/contact-us">联系我们</button>
                 </mat-menu>
             <button mat-button [matMenuTriggerFor]="about">关于</button>  
                 <mat-menu #about="matMenu">
-                    <button mat-menu-item>关于我们</button>
-                    <button mat-menu-item>合作伙伴</button>
-                    <button mat-menu-item>经销商</button>
-                    <button mat-menu-item>加入我们</button>
+                    <button mat-menu-item routerLink="/about-us">关于我们</button>
+                    <button mat-menu-item routerLink="/business-partners">合作伙伴</button>
+                    <button mat-menu-item routerLink="/our-distributors">经销商</button>
+                    <button mat-menu-item routerLink="/open-positions">加入我们</button>
                 </mat-menu>
                     
         </div>

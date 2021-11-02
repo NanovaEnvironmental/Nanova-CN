@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SUPPORT_BG } from 'src/app/constants';
 
 @Component({
   selector: 'app-faqs',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./faqs.component.scss']
 })
 export class FaqsComponent implements OnInit {
+  bgImg = SUPPORT_BG;
 
   constructor() { }
 

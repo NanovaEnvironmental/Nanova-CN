@@ -7,7 +7,7 @@ import { SUPPORT_BG } from 'src/app/constants';
   styleUrls: ['./service-support.component.scss']
 })
 export class ServiceSupportComponent implements OnInit {
-  supportBgImg = SUPPORT_BG;
+  bgImg = SUPPORT_BG;
 
   constructor() { }
 

@@ -1,5 +1,10 @@
-<main>
-  <img [src]="bgImg" class="tp-bgimg">
+<div class="hd-container">
+    <img [src]="bgImg" class="tp-bgimg">
+    <div class="tx-wrapper">
+        <div class="hd-hd"><h2>test</h2></div>
+    </div>
+</div>
+
   <div class="container" fxLayout="row">
     <div class="left-col col-8">
       <h2>特色产品</h2>
@@ -25,24 +30,4 @@
       <h2>最新要闻</h2>
     </div>
   </div>
-  <div class="events-container">
-    <h2>活动预告</h2>
-    <div fxLayout="row">
-      <div class="col-sm-1">
-          <h5>MAR</h5>
-          <h5>1</h5> 
-      </div>
-      <div class="col-sm-3">h</div>
-      <div class="col-sm-1">
-          <h5>APR</h5>
-          <h5>21</h5>
-      </div>
-      <div class="col-sm-3">h</div>
-      <div class="col-sm-1">
-          <h5>NOV</h5>
-          <h5>26</h5>
-      </div>
-      <div class="col-sm-3">h</div>
-    </div>
-  </div>
-</main>
+  <app-events></app-events>

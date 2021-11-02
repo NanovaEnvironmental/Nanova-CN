@@ -1,1 +1,36 @@
-<p>news-and-events works!</p>
+<div class="hd-container">
+    <img [src]="bgImg" class="tp-bgimg">
+    <div class="tx-wrapper">
+        <div class="hd-hd"><h2>最新要闻</h2></div>
+        <div>在此处查看我们的最近更新和即将举行的活动。</div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8" fxLayout="column">
+            <div class="text-row" *ngFor="let event of events">
+                <h2>
+                    <a [href]="event.infoPath"> 
+                        {{ event.title }}
+                    </a>
+                </h2>
+                <p>{{ event.date }}</p>
+                <h5>{{ event.description }}</h5>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+            <h5>最新发布</h5>
+            <div *ngFor="let event of events">
+                <p>
+                    <a [href]="event.infoPath"> 
+                        {{ event.title }}
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-events></app-events>

@@ -1,0 +1,50 @@
+.events-container {
+  background-color: #f8f8f8;
+  padding: 55px;
+}
+
+div.events-container > h2 {
+  text-align: center;
+  color: #67a538;
+}
+
+.date-wrapper {
+  border-bottom-width: 1px;
+  border: black;
+  border-bottom-color: black;
+}
+
+// div > h5 {
+//   padding: 0px 15px;
+//   text-align: center;
+// }
+h6 {
+  margin-top: 10px;
+}
+
+h5 {
+  color: #363636;
+  padding-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.calendar {
+  text-align: center;
+  color: #666666;
+  padding: 0px 15px;
+}
+
+.calendar strong {
+  padding: 2px 16px;
+  background-color: #67a538;
+  color: #ffffff;
+}
+
+::selection {
+  background-color: #67a538;
+  color: #ffffff;
+}
