@@ -17,8 +17,8 @@ import { SharedModule } from './shared/shared.module';
 import { CompanyModule } from './views/company/company.module';
 import { ServiceSupportModule } from './views/service-support/service-support.module';
 import { ContactModule } from './views/contact/contact.module';
-import { FAQsModule } from './views/faqs/faqs.module';
 import { FaqsComponent } from './views/faqs/faqs.component';
+import { ResourcesComponent } from './views/resources/resources.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +28,8 @@ import { FaqsComponent } from './views/faqs/faqs.component';
     ApplicationsComponent,
     // ServiceSupportComponent,
     NewsAndEventsComponent,
-    FaqsComponent
+    FaqsComponent,
+    ResourcesComponent
   ],
   imports: [
     BrowserModule,
@@ -41,8 +42,7 @@ import { FaqsComponent } from './views/faqs/faqs.component';
     CompanyModule,
     ServiceSupportModule,
     ContactModule,
-    FormsModule,
-    FAQsModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

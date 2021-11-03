@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SpectroscopyRsrcComponent } from './spectroscopy-rsrc.component';
+import { ResourcesComponent } from './resources.component';
 
-describe('SpectroscopyRsrcComponent', () => {
-  let component: SpectroscopyRsrcComponent;
-  let fixture: ComponentFixture<SpectroscopyRsrcComponent>;
+describe('ResourcesComponent', () => {
+  let component: ResourcesComponent;
+  let fixture: ComponentFixture<ResourcesComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SpectroscopyRsrcComponent ]
+      declarations: [ ResourcesComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SpectroscopyRsrcComponent);
+    fixture = TestBed.createComponent(ResourcesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

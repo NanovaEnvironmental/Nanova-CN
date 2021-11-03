@@ -21,6 +21,8 @@ export const CONTACT_BG = 'assets/Contact.png';
 export const REQUEST_INFO_BG = 'assets/REQUEST-INFO.png';
 export const REQUEST_QUOTE_BG = 'assets/REQUEST-QUOTE.png';
 export const NEWS_EVENT_BG = 'assets/News.png';
+export const RESOUCES_BG = 'assets/Resource-bg.png';
+export const TECH_BG = 'assets/Technology-bg.png';
 
 export const EVENTS = [
     {
@@ -283,3 +285,112 @@ export const EVENTS = [
         anwser: "使用标准 Swagelok 连接器将气瓶连接到 A1000。"
     }
 ]
+
+export const GAS_CHROMATOGRAPHY_RESOURCE = [
+    {
+        header: "NOVATEST P100",
+        material: [
+            {
+                title: "产品手册",
+                docs:[
+                    {
+                        title: "NovaTest P100手册",
+                        updated: "更新日期: 08/08/2017",
+                        fileSize: "文件大小: 1 MB"
+                    }
+                ]   
+            },
+            {
+                title: "报告 & 资料",
+                docs: [
+                    {
+                        title:"应用说明 1 – 使用 NovaTest P100 Compact GC 分析环境 BTEX",
+                        updated: "更新日期: 08/08/2017",
+                        fileSize: "文件大小: 353 KB"
+                    },
+                    {
+                        title:"应用说明 2 – 使用 NovaTest P100 Compact GC 分析车辆中的 BTEX",
+                        updated: "更新日期: 08/08/2017",
+                        fileSize: "文件大小: 118 KB"
+                    }
+                ]
+            },
+            {
+                title: "表格 & 其他文件",
+                docs: [
+                    {
+                        title:"NovaTest Compact GC 气相色谱仪 可检测的化合物",
+                        updated: "更新日期: 11/28/2018",
+                        fileSize: "文件大小: 421 KB"
+                    },
+                    {
+                        title:"NovaTest Compact GC 客户调查表",
+                        updated: "更新日期: 08/23/2017",
+                        fileSize: "文件大小: 48 KB"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        header: "NOVATEST P300",
+        material: [
+            {
+                title: "产品手册",
+                docs:[
+                    {
+                        title: "NovaTest P300手册",
+                        updated: "更新日期: 11/16/2018",
+                        fileSize: "文件大小: 1 MB"
+                    }
+                ]   
+            },
+            {
+                title: "表格 & 其他文件",
+                docs: [
+                    {
+                        title:"NovaTest Compact GC 可检测的化合物",
+                        updated: "更新日期: 11/28/2018",
+                        fileSize: "文件大小: 421 KB"
+                    },
+                    {
+                        title:"NovaTest GC 客户调查表",
+                        updated: "更新日期: 08/23/2017",
+                        fileSize: "文件大小: 48 KB"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        header: "NOVATEST A1000",
+        material: [
+            {
+                title: "表格 & 其他文件",
+                docs: [
+                    {
+                        title:"NovaTest GC 客户调查表",
+                        updated: "更新日期: 08/23/2017",
+                        fileSize: "文件大小: 48 KB"
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+export const SPECTROSCOPY_RESOURCE = {
+        header: "DV3000 实时空气监测系统",
+        material: [
+            {
+                title: "产品手册",
+                docs:[
+                    {
+                        title: "NovaTest P300手册",
+                        updated: "更新日期: 11/16/2018",
+                        fileSize: "文件大小: 1 MB"
+                    }
+                ]  
+            }
+        ]
+}
