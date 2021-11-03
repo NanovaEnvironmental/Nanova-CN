@@ -21,6 +21,18 @@
   padding-bottom: 20px;
 }
 
+.container {
+  margin-bottom: 100px;
+}
+
+.container h2 {
+  color: #67a538;
+}
+
+mat-expansion-panel {
+  margin-bottom: 2px;
+}
+
 ::selection {
   background-color: #67a538;
   color: #ffffff;

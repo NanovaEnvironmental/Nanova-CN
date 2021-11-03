@@ -25,7 +25,7 @@ const routes: Routes = [
   { path: 'request-quote', component: RequestQuoteComponent },
   { path: 'contact-us', component: ContactUsComponent},
   { path: 'news-and-events', component: NewsAndEventsComponent},
-  { path: 'faqs', component: FaqsComponent}
+  { path: 'faqs/:product', component: FaqsComponent}
  ];
 
 @NgModule({

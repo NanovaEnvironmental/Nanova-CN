@@ -7,4 +7,22 @@
     </div>
 </div>
 
+<div class="container">
+    <h2>{{ productName }}</h2>
+    
+    <mat-accordion *ngFor="let question of questionGroup">
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    {{ question.title}}
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+        
+            <p>{{ question.anwser}}</p>
+        </mat-expansion-panel>
+    </mat-accordion>
+  
+</div>
+
+
 <app-question-form></app-question-form>
