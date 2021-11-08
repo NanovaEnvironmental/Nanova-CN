@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { RESOUCES_BG, TECH_BG } from 'src/app/constants';
+import { GAS_CHROMATOGRAPHY_RESOURCE, RESOUCES_BG, SPECTROSCOPY_RESOURCE, TECH_BG } from 'src/app/constants';
 
 @Component({
   selector: 'app-resources',
@@ -11,28 +11,50 @@ export class ResourcesComponent implements OnInit {
   bgImg1 = RESOUCES_BG;
   bgImg2 = TECH_BG;
   bgImg: any;
-  resource: any;
+  // resource: any;
   headerTitle: any;
   headerContent:any;
+  resources: any;
+  showContent = true;
+  // resource = {
+  //   header: '',
+  //   material: [{
+  //     title: '',
+  //     docs: [
+  //       {
+  //         title: '',
+  //         updated: '',
+  //         fileSize: ''
+  //       }
+  //     ],
+  //   }],
+  // };
 
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.getResource();
-  }
 
-  getResource() {
     this.route.paramMap.subscribe(params => {
-      this.resource = params.get("resource");
-      if (this.resource === "sensor-technology") {
+      const resource = params.get("resource");
+      if (resource === "gas") {
+        this.showContent = true;
+        this.bgImg = this.bgImg1;
+        this.headerTitle = "资源";
+        this.headerContent = "在此处查找和下载有关我们任何产品的材料。";
+        this.resources = GAS_CHROMATOGRAPHY_RESOURCE;
+        
+      } else if (resource === "spectroscopy") {
+        this.showContent = true;
+        this.bgImg = this.bgImg1;
+        this.headerTitle = "资源";
+        this.headerContent = "在此处查找和下载有关我们任何产品的材料。";
+        this.resources = SPECTROSCOPY_RESOURCE;
+      } else if (resource === "sensor-technology") {
+        this.showContent = false;
         this.bgImg = this.bgImg2;
         this.headerTitle = "微通道流体PID";
         this.headerContent = "基于 MEMS 的专利技术可提供更高的精度和更好的分辨率。"
-      } else {
-        this.bgImg = this.bgImg1;
-        this.headerTitle = "资源";
-        this.headerContent = "在此处查找和下载有关我们任何产品的材料。"
-      }
+      } 
     })
   }
 

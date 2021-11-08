@@ -78,12 +78,12 @@
                 </mat-menu> 
             <button mat-button [matMenuTriggerFor]="resources">资源</button>
                 <mat-menu #resources="matMenu">
-                    <button mat-menu-item routerLink="resources/gas">1</button>
-                    <button mat-menu-item routerLink="resources/spectroscopy">2</button>
-                    <button mat-menu-item [matMenuTriggerFor]="tech">3</button>
+                    <button mat-menu-item routerLink="resources/gas">气相色谱产品</button>
+                    <button mat-menu-item routerLink="resources/spectroscopy">光谱产品</button>
+                    <button mat-menu-item [matMenuTriggerFor]="tech">技术</button>
                 </mat-menu>
                 <mat-menu #tech="matMenu">
-                    <button mat-menu-item routerLink="resources/sensor-technology">3.1</button>
+                    <button mat-menu-item routerLink="resources/sensor-technology">传感器技术</button>
                 </mat-menu> 
 
             <button mat-button [matMenuTriggerFor]="qna">常见问题</button>

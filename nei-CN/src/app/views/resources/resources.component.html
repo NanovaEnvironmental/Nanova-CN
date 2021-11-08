@@ -6,4 +6,27 @@
     </div>
 </div>
 
+<div class="container" *ngIf="showContent">
+    <div class="row" *ngFor="let resource of resources">
+        <h2>{{ resource.header }}</h2>
+   
+        <mat-accordion *ngFor="let material of resource.material">
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title >
+                        {{ material.title }}
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <div *ngFor="let doc of material.docs">
+                    <p><strong>{{ doc.title }}</strong></p>
+                    <p>{{ doc.updated }}</p>
+                    <p>{{ doc.fileSize }}</p>
+                </div>
+                
+            </mat-expansion-panel>
+        </mat-accordion>
+
+    </div>
+</div>
+
 <app-question-form></app-question-form>

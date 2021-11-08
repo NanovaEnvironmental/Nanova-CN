@@ -379,7 +379,7 @@ export const GAS_CHROMATOGRAPHY_RESOURCE = [
     }
 ]
 
-export const SPECTROSCOPY_RESOURCE = {
+export const SPECTROSCOPY_RESOURCE = [{
         header: "DV3000 实时空气监测系统",
         material: [
             {
@@ -393,4 +393,4 @@ export const SPECTROSCOPY_RESOURCE = {
                 ]  
             }
         ]
-}
+}]
