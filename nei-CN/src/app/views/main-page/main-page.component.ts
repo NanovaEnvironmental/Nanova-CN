@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { COMPACKT_GC, MAIN_BG_IMG, ONLINE_MONITORING, SENSORS } from 'src/app/constants';
+import { COMPACKT_GC, EVENTS, MAIN_BG_IMG, ONLINE_MONITORING, SENSORS } from 'src/app/constants';
 
 @Component({
   selector: 'app-main-page',
@@ -11,6 +11,7 @@ export class MainPageComponent implements OnInit {
   gcImg = COMPACKT_GC;
   omImg = ONLINE_MONITORING;
   sensorsImg = SENSORS;
+  events = EVENTS;
 
   constructor() { }
 

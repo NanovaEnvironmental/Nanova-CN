@@ -5,29 +5,35 @@
     </div>
 </div>
 
-  <div class="container" fxLayout="row">
-    <div class="left-col col-8">
-      <h2>特色产品</h2>
-      <div class="fp-col-container" fxLayout="row">
-        <div class="col-sm-4">
-          <img [src]="gcImg">
-          <p>描述</p>
-          <button mat-flat-button color="primary">探索</button>
-        </div>
-        <div class="col-sm-4">
-          <img [src]="omImg">
-          <p>描述</p>
-          <button mat-flat-button color="primary">探索</button>
-        </div>
-        <div class="col-sm-4">
-          <img [src]="sensorsImg">
-          <p>描述</p>
-          <button mat-flat-button color="primary">探索</button>
-        </div>
+<div class="container" fxLayout="row">
+  <div class="col-sm-8">
+    <h2>特色产品</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <img [src]="gcImg">
+        <p>NovaTest P 系列提供Compact GC，其设计便于携带到现场进行 VOC 分析</p>
+        <button mat-flat-button>探索</button>
+      </div>
+      <div class="col-sm-4">
+        <img [src]="omImg">
+        <p>我们将GCs和自动化技术相结合，给出了VOCs在线监测解决方案。</p>
+        <button mat-flat-button>探索</button>
+      </div>
+      <div class="col-sm-4">
+        <img [src]="sensorsImg">
+        <p>用于 VOC 检测的专利 PID 现在可以轻松连接到任何气相色谱系统。</p>
+        <button mat-flat-button>探索</button>
       </div>
     </div>
-    <div class="col">
-      <h2>最新要闻</h2>
-    </div>
   </div>
-  <app-events></app-events>
+  <div class="col-sm-1"></div>
+  <div class="col-sm-3">
+    <h2>最新要闻</h2>
+    <div *ngFor="let event of events">
+      <span><a [href]="event.infoPath">{{ event.title }}</a></span>
+      <p style="color: #67a538;">{{ event.date }}</p>
+    </div>
+    <a routerLink="/news-and-events">了解更多>></a>
+  </div>
+</div>
+<app-events></app-events>

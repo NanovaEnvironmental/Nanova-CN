@@ -22,26 +22,40 @@
 }
 
 .container {
-  border: 1px solid black;
   margin: 0px 55px;
   padding: 0px 15px;
   //   width: 100%;
 }
 
-.row {
-  border: 1px solid black;
-}
-
-.col {
-  border: 1px solid black;
-}
-
-.left-col {
-  border: 1px solid black;
-  margin-right: 130px;
-}
-
 .container img {
   width: 209px;
   height: 183px;
+}
+
+.container h2 {
+  color: #67a538;
+  margin-bottom: 50px;
+}
+
+// .container p {
+//   color: #67a538;
+// }
+
+a {
+  color: #363636;
+  text-decoration: none;
+}
+
+.row p {
+  margin: 50px 15px 50px 0;
+}
+
+button {
+  background-color: #67a538;
+  color: #ffffff;
+}
+
+::selection {
+  background-color: #67a538;
+  color: #ffffff;
 }
