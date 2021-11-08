@@ -29,4 +29,30 @@
     </div>
 </div>
 
+<div class="container" *ngIf="showSensor">
+    <div class="row">
+        <h2 style="text-align: center; margin-bottom: 50px;">什么是PID?</h2>
+        <p>当气体分子暴露于能量非常高的光子时，它们会被分解成电子和带正电的离子。这些产生电流的离子由传感单元检测，反映样品的浓度信息。光电离检测器 (PID) 是一种使用通电的光源产生光子并检测信号的系统。电离势小于光子能量的化学物质将会被检测到。</p>
+    </div>
+    <div class="row">
+        <h2 style="text-align: center; margin-bottom: 50px;">基于 MEMS 的技术</h2>
+        <p>高灵敏度NovaPID微流体检测系统采用先进的MEMS（微机电系统）技术，以低成本实现快速响应。该通道是微制造的，具有较小的电离室容积和几乎死区容积。腔室容积仅为 1.3 uL，其中大部分光子被穿过腔室的分子吸收，从而产生电信号。气体流速可高达每分钟几十毫升。同时，流通设计导致死体积几乎为零并产生非常敏锐的响应。</p>
+        <div class="row">
+            <div class="col-md-4"><img [src]="memsImg"></div>
+            <div class="col-md-4"><img [src]="pidImg"></div>
+            <div class="col-md-4">
+                <ul>
+                    <li>几乎为零的体积 – 信号峰值显著</li>
+                    <li>完全电离 – 良好的线性特性</li>
+                    <li>检测下限 – pg级</li>
+                    <li>动态范围 – 4.5 到 5 个量级</li>
+                    <li>光源 – 10.6eV</li>
+                    <li>功耗 – 100mV</li>
+                </ul>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
 <app-question-form></app-question-form>

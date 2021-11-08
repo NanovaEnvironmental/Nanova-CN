@@ -23,6 +23,8 @@ export const REQUEST_QUOTE_BG = 'assets/REQUEST-QUOTE.png';
 export const NEWS_EVENT_BG = 'assets/News.png';
 export const RESOUCES_BG = 'assets/Resource-bg.png';
 export const TECH_BG = 'assets/Technology-bg.png';
+export const MEMS = 'assets/MEMS.png';
+export const PID = 'assets/PID.png';
 
 export const EVENTS = [
     {
