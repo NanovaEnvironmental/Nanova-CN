@@ -10,6 +10,7 @@ import { RequestQuoteComponent } from './views/contact/request-quote/request-quo
 import { FaqsComponent } from './views/faqs/faqs.component';
 import { MainPageComponent } from './views/main-page/main-page.component';
 import { NewsAndEventsComponent } from './views/news-and-events/news-and-events.component';
+import { ProductsComponent } from './views/products/products.component';
 import { ResourcesComponent } from './views/resources/resources.component';
 import { ServiceSupportComponent } from './views/service-support/service-support/service-support.component';
 import { TechSupportComponent } from './views/service-support/tech-support/tech-support.component';
@@ -27,7 +28,8 @@ const routes: Routes = [
   { path: 'contact-us', component: ContactUsComponent},
   { path: 'news-and-events', component: NewsAndEventsComponent},
   { path: 'faqs/:product', component: FaqsComponent},
-  { path: 'resources/:resource', component: ResourcesComponent}
+  { path: 'resources/:resource', component: ResourcesComponent},
+  { path: 'products/:product', component: ProductsComponent}
  ];
 
 @NgModule({

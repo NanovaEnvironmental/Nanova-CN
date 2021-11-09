@@ -25,6 +25,15 @@ export const RESOUCES_BG = 'assets/Resource-bg.png';
 export const TECH_BG = 'assets/Technology-bg.png';
 export const MEMS = 'assets/MEMS.png';
 export const PID = 'assets/PID.png';
+export const P100_BG = 'assets/P100.png';
+export const HOME_BG = 'assets/Home.png';
+export const P100_IMG = 'assets/products-P100.png';
+export const P300_IMG = 'assets/products-P300.png';
+export const PW1000_IMG = 'assets/products-W1000.png';
+export const DV3000_IMG = 'assets/products-DV3000.png';
+export const HOTFIND_IMG = 'assets/products-Hotfind-S.png';
+export const PANDA_IMG = 'assets/products-Panda.png';
+export const SATIR2_IMG = 'assets/products-Satir2-1.png';
 
 export const EVENTS = [
     {
@@ -396,3 +405,73 @@ export const SPECTROSCOPY_RESOURCE = [{
             }
         ]
 }]
+
+export const PRODUCT_P100 = {
+    imgPath: P100_IMG,
+    productName: "NovaTest P100 Compact GC",
+    subtitle: "用于做现场快速 VOC 筛查",
+    PN: "P/N: PT1A",
+    description: "描述： NovaTest P100 是一款获得了专利的小型气相色谱仪，其设计用于快速分离和检测 VOC 混合物以及一些挥发性无机化合物。其高灵敏度使得操作员可以在较低的pub级别看到化学物质，且不必担心便利性和分析性能之间的补偿。",
+    features : {
+        name: "特征",
+        details: [
+            "内置电池可支持8小时使用。当电池需要充电时会有提示。",
+            "P100 使用氦气作为一次性mini墨盒中的载气，用户可以运行长达 72 小时的测试。",
+            "在现场测试气体样品时，P100 会自动泵入周围的空气。用户不需要额外的附件或手动注射来加载样品",
+            "P100 由笔记本电脑通过 USB 连接控制。用户将主要通过笔记本电脑上的用户界面进行操作。",
+            "两种操作模式 - 使用最少参数输入的快速测试和每个参数均可编辑的传统测试。",
+            "内置方法里包含目标化合物的信息和编程参数。用户只需输入采样时间即可开始测试。",
+            "测试计算结果的即时报告为用户节省了大量的数据分析时间。特别是还计算了目标化合物的浓度。报告可立即打印。",
+            "P100 将分析时间从传统 GC 的几十分钟缩短到几分钟。它可以在 3 分钟内很好地分离 BTEX。P100 使用 PID（光电离检测器）检测化合物，检测下限为亚 ppb（苯）。大多数物质的 FWHM 小于 5 秒。",
+            "P100 的尺寸是 36 x 30 x 15 厘米， 7 公斤，只是一个包包的大小。一般只需要一台笔记本电脑来协助测试"
+            ],
+    },
+    specification: {
+        name: "规格",
+        details: [
+            "产品名称： NovaTest P100 小型气相色谱仪",
+            "分析系统：气相色谱仪",
+            "检测器：PID",
+            "尺寸：36 x 30 x 15 厘米",
+            "重量：7公斤",
+            "载气：氦气，≥ 99.5%",
+            "色谱柱：毛细管柱",
+            "电源：内置电池或外接电源插座",
+            "电源输入：100 V ~ 240 V AC，50 ~ 60 Hz",
+            "电池：可充电锂离子聚合物电池，有 2 种容量可供选择（> 4 小时或升级至 > 8 小时）",
+            "电池电源输出：25.9 VDC",
+            "理论上可检测的化合物：VOC 和一些电离电位小于 10.6 eV 的无机挥发性化合物。",
+            "平台：NovaSoft 1.0、NovaSoft 2.0"
+        ]
+
+    },
+    literatures: {
+        name: "文件",
+        docs: [
+            {
+                title: "NovaTest P100 – 手册",
+                update: "更新日期: 01/23/2019",
+                fileSize: "文件大小: 1 MB"
+            },
+            {
+                title: "应用说明 1 – 使用 NovaTest P100 小型 GC 分析环境 BTEX",
+                update: "更新日期: 08/08/2017",
+                fileSize: "文件大小: 353 MB"
+            },
+            {
+                title: "应用说明 1 – 使用 NovaTest P100 小型 GC 分析环境 BTEX",
+                update: "更新日期: 08/08/2017",
+                fileSize: "文件大小: 353 MB"
+            }
+        ]
+    },
+     videos: {
+            name: "视频",
+            details: [
+                {videoPath: "https://i.ytimg.com/vi_webp/Y_sLjXN2kcc/maxresdefault.webp"},
+                {videoPath: "https://i.ytimg.com/vi_webp/-jaDj72qhgU/maxresdefault.webp"},
+                {videoPath: "https://i.ytimg.com/vi_webp/LoBJNMGb84Y/maxresdefault.webp"}
+            ]
+        }
+
+}

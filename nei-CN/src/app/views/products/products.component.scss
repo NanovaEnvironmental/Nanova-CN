@@ -1,0 +1,43 @@
+img {
+  width: 440px;
+  height: 238px;
+}
+
+.container {
+  margin-top: 60px;
+}
+
+.col-sm-5 {
+  padding-top: 30px;
+}
+
+h2 {
+  color: #67a538;
+}
+
+strong {
+  color: #363636;
+}
+
+button {
+  background-color: #67a538;
+  color: #ffffff;
+}
+
+.row {
+  margin-bottom: 50px;
+}
+
+mat-expansion-panel {
+  margin-bottom: 2px;
+}
+
+//   ul li {
+//     color: #67a538;
+//     text-align: left;
+//   }
+
+::selection {
+  background-color: #67a538;
+  color: #ffffff;
+}

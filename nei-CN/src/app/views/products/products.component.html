@@ -1,1 +1,67 @@
-<p>products works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-5">
+            <img [src]="product.imgPath">
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-6">
+            <h2>{{ product.productName }}</h2>
+            <strong>{{ product.subtitle }}</strong>
+            <p>{{ product.PN }}</p>
+            <p>{{ product.description }}</p>
+            <button mat-flat-button>询价</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title >
+                        {{ product.features.name }}
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <div *ngFor="let detail of product.features.details">
+                    <li>{{ detail }}</li>
+                </div>   
+            </mat-expansion-panel>
+        </mat-accordion>
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title >
+                        {{ product.specification.name }}
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <div *ngFor="let detail of product.specification.details">
+                    <p>{{ detail }}</p>
+                </div>   
+            </mat-expansion-panel>
+        </mat-accordion>
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title >
+                        {{ product.literatures.name }}
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <div *ngFor="let doc of product.literatures.docs">
+                    <p><strong>{{ doc.title }}</strong></p>
+                    <p>{{ doc.updated }}</p>
+                    <p>{{ doc.fileSize }}</p>
+                </div>   
+            </mat-expansion-panel>
+        </mat-accordion>
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title >
+                        {{ product.videos.name }}
+                    </mat-panel-title>
+                </mat-expansion-panel-header>   
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+</div>
+
+<app-question-form></app-question-form>
