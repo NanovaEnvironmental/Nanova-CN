@@ -6,33 +6,37 @@ export const LINKEDIN_IMG = 'assets/Linkedin.png';
 export const TWITTER_IMG = 'assets/Twitter.png';
 export const YOUTUBE_IMG = 'assets/YouTube.png';
 export const COPY_RIGHT = 'Copyright © 2021 Nanova Environmental, Inc. All Rights Reserved.'
-export const MAIN_BG_IMG = 'assets/mainpage-background.png';
 export const COMPACKT_GC = 'assets/Compact-GC.png';
 export const ONLINE_MONITORING = 'assets/Online-Monitoring.png';
 export const SENSORS = 'assets/Sensors.png';
-export const SUPPORT_BG = 'assets/support-bg.png';
-export const ABOUT_US_BG = 'assets/Aboutus.png';
-export const BUSI_PART_BG ='assets/Business-Partners.png';
-export const JOIN_US_BG = 'assets/Career.png';
+export const MEMS = 'assets/MEMS.png';
+export const PID = 'assets/PID.png';
 export const DUVAS_IMG = 'assets/Duvas-Logo.png';
 export const SATIR_IMG = 'assets/Satir-Logo.png';
 export const SCENTR_IMG = 'assets/Scentroid-logo.png';
-export const CONTACT_BG = 'assets/Contact.png';
+
+// backgroud image
+export const MAIN_BG_IMG = 'assets/mainpage-background.png';
+export const BUSI_PART_BG ='assets/Business-Partners.png';
+export const SUPPORT_BG = 'assets/support-bg.png';
+export const ABOUT_US_BG = 'assets/Aboutus.png';
+export const JOIN_US_BG = 'assets/Career.png';
 export const REQUEST_INFO_BG = 'assets/REQUEST-INFO.png';
-export const REQUEST_QUOTE_BG = 'assets/REQUEST-QUOTE.png';
 export const NEWS_EVENT_BG = 'assets/News.png';
-export const RESOUCES_BG = 'assets/Resource-bg.png';
 export const TECH_BG = 'assets/Technology-bg.png';
-export const MEMS = 'assets/MEMS.png';
-export const PID = 'assets/PID.png';
+export const CONTACT_BG = 'assets/Contact.png';
+export const REQUEST_QUOTE_BG = 'assets/REQUEST-QUOTE.png';
+export const RESOUCES_BG = 'assets/Resource-bg.png';
 export const P100_BG = 'assets/P100.png';
 export const HOME_BG = 'assets/Home.png';
+
+// product pictures
 export const P100_IMG = 'assets/products-P100.png';
 export const P300_IMG = 'assets/products-P300.png';
-export const PW1000_IMG = 'assets/products-W1000.png';
+export const W1000_IMG = 'assets/products-W1000.png';
 export const DV3000_IMG = 'assets/products-DV3000.png';
-export const HOTFIND_IMG = 'assets/products-Hotfind-S.png';
 export const PANDA_IMG = 'assets/products-Panda.png';
+export const HOTFIND_IMG = 'assets/products-Hotfind-S.png';
 export const SATIR2_IMG = 'assets/products-Satir2-1.png';
 
 export const EVENTS = [
@@ -411,7 +415,7 @@ export const PRODUCT_P100 = {
     productName: "NovaTest P100 Compact GC",
     subtitle: "用于做现场快速 VOC 筛查",
     PN: "P/N: PT1A",
-    description: "描述： NovaTest P100 是一款获得了专利的小型气相色谱仪，其设计用于快速分离和检测 VOC 混合物以及一些挥发性无机化合物。其高灵敏度使得操作员可以在较低的pub级别看到化学物质，且不必担心便利性和分析性能之间的补偿。",
+    description: "描述： NovaTest P100 是一款获得了专利的便携型气相色谱仪，其设计用于快速分离和检测 VOC 混合物以及一些挥发性无机化合物。其高灵敏度使得操作员可以在较低的pub级别看到化学物质，且不必担心便利性和分析性能之间的补偿。",
     features : {
         name: "特征",
         details: [
@@ -429,7 +433,7 @@ export const PRODUCT_P100 = {
     specification: {
         name: "规格",
         details: [
-            "产品名称： NovaTest P100 小型气相色谱仪",
+            "产品名称： NovaTest P100 便携式气相色谱仪",
             "分析系统：气相色谱仪",
             "检测器：PID",
             "尺寸：36 x 30 x 15 厘米",
@@ -446,7 +450,7 @@ export const PRODUCT_P100 = {
 
     },
     literatures: {
-        name: "文件",
+        name: "资料",
         docs: [
             {
                 title: "NovaTest P100 – 手册",
@@ -454,12 +458,12 @@ export const PRODUCT_P100 = {
                 fileSize: "文件大小: 1 MB"
             },
             {
-                title: "应用说明 1 – 使用 NovaTest P100 小型 GC 分析环境 BTEX",
+                title: "应用说明 1 – 使用 NovaTest P100 便携式 GC 分析环境 BTEX",
                 update: "更新日期: 08/08/2017",
                 fileSize: "文件大小: 353 MB"
             },
             {
-                title: "应用说明 1 – 使用 NovaTest P100 小型 GC 分析环境 BTEX",
+                title: "应用说明 1 – 使用 NovaTest P100 便携式 GC 分析环境 BTEX",
                 update: "更新日期: 08/08/2017",
                 fileSize: "文件大小: 353 MB"
             }
@@ -475,3 +479,367 @@ export const PRODUCT_P100 = {
         }
 
 }
+
+export const PRODUCT_P300 = {
+    imgPath: P300_IMG,
+    productName: "NovaTest P300 Integrated Compact GC (Beta)",
+    subtitle: "用于现场快速便捷的 VOC 筛查",
+    PN: "P/N: PT2A",
+    description: "描述：带有集成触摸显示屏计算机的便携式 GC。 NovaTest P300 可以在一台设备内进行采样、分析和查看结果。它专为方便、快速测试复杂的挥发性有机化合物 (VOC) 和一些高灵敏度的挥发性无机化合物而设计。封闭式结构和温控外壳使其在任何条件下都更加稳定可靠。",
+    features : {
+        name: "特征",
+        details: [
+            "内置电脑：P300 包含一个集成的电脑和屏幕。不需要额外的设备来运行系统或查看结果。整个装置置于一个易于携带的箱子中。",
+            "温控：温控外壳可抑制保留时间的气流并确保在任何条件下都能获得准确的结果。",
+            "防水防尘外壳：P300 作为一个封闭式系统，旨在防水防尘以避免污染。",
+            "灵活性：有两种操作模式可用 - 使用最少参数输入的快速测试和每个参数均可编辑的传统测试。",
+            "即时报告： P300 从任意测试中生成的带有计算结果的即时报告为用户节省了大量的数据分析时间。内置方法的报告中还计算了目标化合物的浓度。报告可立即打印使用。",
+            "直接采样：在现场测试气态样品时，P300 会自动抽取周围的空气。用户无需携带额外配件或手动注入样品",
+            "用户输入：内置方法预先确定了目标化合物的信息和编程参数。用户只需输入采样时间和等待时间即可开始测试。",
+            "内置电池：内置电池可支持4小时以上的测试。电池需要充电时会有提示。",
+            "功能强大：P300 使用 PID（光电离检测器）检测化合物，检测下限为亚 ppb（苯）。大多数物质的 FWHM 小于 5 秒。",
+            "快捷：P300 将分析时间从传统 GC 的几十分钟缩短到仅几分钟。它可以在不到 3 分钟的时间内很好地分离 BTEX。"
+            ],
+    },
+    specification: {
+        name: "规格",
+        details: [
+            "产品名称： NovaTest P300 一体式便携型气相色谱仪",
+            "分析系统：气相色谱仪",
+            "检测器：PID",
+            "尺寸：47 x 35.7 x 17.6 厘米",
+            "重量：10公斤",
+            "载气：氦气，≥ 99.5%",
+            "色谱柱：毛细管柱",
+            "电源：内置电池或外接电源插座",
+            "检测下限：<1 ppb（苯）",
+            "电源输入：100 V ~ 240 V AC，50 ~ 60 Hz",
+            "电池：可充电锂离子聚合物电池，有 2 种容量可供选择（> 4 小时或升级至 > 8 小时）",
+            "电池电源输出：25.9 VDC",
+            "理论上可检测的化合物：VOC 和一些电离电位小于 10.6 eV 的无机挥发性化合物。",
+            "平台：NovaSoft 1.0、NovaSoft 2.0"
+        ]
+
+    },
+    literatures: {
+        name: "资料",
+        docs: [
+            {
+                title: "NovaTest P300手册",
+                updated: "更新日期: 01/23/2019",
+                fileSize: "文件大小: 1 MB"
+            }
+        ]
+    },
+     videos: {
+            name: "视频",
+            details: [
+                {videoPath: ""}
+            ]
+        }
+
+}
+
+export const PRODUCT_W1000 = {
+    imgPath: W1000_IMG,
+    productName: "NovaTest W1000 Online VOC Monitor (Alpha)",
+    subtitle: "用于连续监测水中 VOC 的在线 GC",
+    PN: "P/N: PT3A",
+    description: "描述：NovaTest W1000 (alpha) 该产品是一款用于持续监测水质的可连网设备。能够快速以高灵敏度检测和分析复杂的挥发性有机化合物 (VOC) 和一些挥发性无机化合物。其封闭式的温控结构设计在任何条件下都准确可靠，标准底盘也适用于大多数现有的空气监测站。",
+    features : {
+        name: "特征",
+        details: [
+            "标准尺寸：W1000 制造在标准尺寸的底盘上，适用于大多数现有的空气监测站。",
+            "具有连网功能的内置电脑：W1000 包含集成电脑和屏幕。该系统可以连接到网络进行连续、无人值守的监控。用户可以远程测试并查看结果，使空气质量监测更加方便可靠。",
+            "自动校准和测试采样：安装后，W1000 会以指定的时间间隔自动泵入水样，并以指定的频率进行自校准。用户不需要额外的附件或手动注入样品。",
+            "连续监测：内置方法预先确定了目标化合物的信息和编程参数，无需用户输入。采样时间、等待时间和采样间隔也可以提前设定，使系统能够在无人值守的情况下连续运行。",
+            "即时报告： W1000 从任意测试中生成的带有计算结果的即时报告为用户节省了大量的数据分析时间。内置方法的报告中还计算了目标化合物的浓度。报告可立即打印使用。",
+            "功能强大：W1000 使用 PID（光电离检测器）检测化合物，检测限为亚 ppb（苯）。大多数物质的 FWHM 小于 5 秒。",
+            "快捷：W1000 将分析时间从传统 GC 的几十分钟缩短到仅几分钟。它可以在不到 3 分钟的时间内很好地分离 BTEX。",
+            "温控：温控外壳可抑制保留时间的气流并确保在任何条件下都能获得准确的结果。"
+            ],
+    },
+    specification: {
+        name: "规格",
+        details: [
+            "产品名称： NovaTest W1000 在线 VOC 监测仪 (Alpha)",
+            "分析系统：气相色谱仪",
+            "检测器：PID",
+            "尺寸：19 x 13.75 x 7.5 英寸",
+            "重量：22 磅",
+            "载气：氦气，≥ 99.5%",
+            "PC：内置10英寸触摸屏",
+            "电源：内置电池或外接电源插座",
+            "检测下限：<1 ppb（苯）",
+            "电源输入：100 V ~ 240 V AC，50 ~ 60 Hz",
+            "理论上可检测的化合物：VOC 和一些电离电位小于 10.6 eV 的无机挥发性化合物。",
+            "平台：NovaSoft 1.0、NovaSoft 2.0"
+        ]
+
+    },
+    literatures: {
+        name: "资料",
+        docs: [
+            {
+                title: "",
+                updated: "",
+                fileSize: ""
+            }
+        ]
+    },
+     videos: {
+            name: "视频",
+            details: [
+                {videoPath: ""}
+            ]
+        }
+
+}
+
+export const PRODUCT_DV3000 = {
+    imgPath: DV3000_IMG,
+    productName: "DV3000 实时空气监测器",
+    subtitle: "用于EPA方法",
+    description: "描述：DV3000 是 Duvas 科技公司开发的一种新型仪器，在固定和移动的应用中均可进行多物种气体分析，能够实现快速的实时读数以及产生气体浓度地图。它能够使用紫外光谱测量在紫外光谱中可见的大范围气体。",
+    features : {
+        name: "特征",
+        details: [
+            "市场上唯一一款提供如此高准确度的实时便携式检测分析仪",
+            "便于使用",
+            "维护最少",
+            "蓝牙通信实现了 DV3000 实时的流式传输数据",
+            "通过 USB 记录数据：非常适合现场监控",
+            "适用于各种工作环境",
+            "既固定又便携",
+            "无需昂贵的化学品或冷却剂，也无需重复校准",
+            "新颖的光学设计可同时提供多达 13 种气体至 ppb 级",
+            "持续监测温度、湿度和压力",
+            "无需气体校准",
+            "简单的调零程序可确保一致的性能",
+            "掉电后自动重启，重启后保留相同设置",
+            "重启20分钟内数据输出稳定",
+            "读数快速、准确"
+            ],
+    },
+    specification: {
+        name: "规格",
+        details: [
+            "尺寸：840 x 290 x 280 毫米",
+            "重量：不带电池25公斤，带电池32公斤",
+            "功能：检测下限为十亿分之几的气体检测器/分析器。 BTEX 或空气质量气体",
+            "光学系统：多通紫外光谱仪",
+            "结构：高密度聚氨酯成型外壳。不锈钢和铝制气室。气体入口和出口处的 HEPA 过滤器",
+            "光学性能：光源输出下降时发出低光警告",
+            "响应时间：最短响应时间1秒。可以设置单位以获得更长的响应时间以优化检测灵敏度",
+            "通信：通过 RS232 电缆、Eithernet 或蓝牙输出数据。 USB数据存储",
+            "电源选项：24V DC @ 4A。最大 96W。高性能锂电池组选项。连接外部电源时，装置会自动断开电池连接",
+            "功能测试：通过清洁空气或氮气瓶调零。用于气体验证的流量适配器",
+            "环境空气温度：0°C 至 40°C 无冷凝",
+            "机组工作温度：10°C 至 30°C",
+            "电池和灯泡寿命：长达 6 小时的电池寿命。至少 2000 小时灯泡寿命",
+            "标准：通过 IEC61010-1 和 ISO 标准认证",
+            "防护等级：IP65 应要求提供",
+            "射频辐射：经测试符合 EN55022 等级",
+            "可检测气体：苯、甲苯、乙苯、间二甲苯、邻二甲苯、对二甲苯、臭氧、一氧化氮、二氧化硫、二氧化氮、苯乙烯、氨、甲醛、1,3-丁二烯"
+        ]
+
+    },
+    literatures: {
+        name: "资料",
+        docs: [
+            {
+                title: "DV3000手册",
+                updated: "更新日期: 04/17/2018",
+                fileSize: "文件大小: 1 MB"
+            }
+        ]
+    },
+     videos: {
+            name: "视频",
+            details: [
+                {videoPath: "https://www.youtube.com/watch?v=evvPcZdvYWU"},
+                {videoPath: "https://www.youtube.com/watch?v=Yd8xcfRI7No"},
+                {videoPath: "https://www.youtube.com/watch?v=6UfnpNW00KA"}
+            ]
+        }
+
+}
+
+export const PRODUCT_PANDA = {
+    imgPath: PANDA_IMG,
+    productName: "红外/可见光 熊猫挂载相机",
+    subtitle: "针对新冠疫情在公共区域检测发烧者",
+    description: "描述：可安装的红外/可见光摄像机在红外模式和可见光模式下提供体温实时成像。两种模式的切换有助于识别感染者以及防止病毒进一步传播。在环境温度变化下结果会准确无误。",
+    features : {
+        name: "特征",
+        details: [
+            "呈现实时热图像",
+            "384×288 红外探测器， 110,592 像素",
+            "0°C 至 60°C 温度测量，热精度为 ±0.3°C",
+            "移动侦测、磁盘报警、I/O报警、温度报警",
+            "以 20 fps 的速度同时检测多达 16 个目标",
+            "3 级分布部署",
+            "档案管理，数据管理，批量导入/导出，自学习算法，人脸库定期更新",
+            "根据年龄/性别/时间/类型和疾病/地点进行统计报告和分析",
+            "人脸识别智能技术与测温技术相结合，提供超温目标的位置，解决超温目标信息无法即时确认的问题，同时摄像头为进一步监管提供素材并发送报告",
+            "支持音频"
+            ],
+    },
+    specification: {
+        name: "规格",
+        details: [
+            "热像仪",
+            "探测器类型：非制冷 IRFPA 微测辐射热计",
+            "热透镜",
+            "视频和音频",
+            "智能",
+            "温度检测",
+            "网络",
+            "接口",
+            "一般",
+            "黑体规格"
+        ]
+
+    },
+    literatures: {
+        name: "资料",
+        docs: [
+            {
+                title: "用于新冠肺炎监测的红外和温度摄像机",
+                updated: "更新日期: 04/29/2020",
+                fileSize: "文件大小: 5.4 MB"
+            }
+        ]
+    },
+     videos: {
+            name: "视频",
+            details: [
+                {videoPath: "https://www.youtube.com/watch?v=WzTDkjFpKPo"},
+                {videoPath: "https://www.youtube.com/watch?v=_auzWMm7P8g"}
+            ]
+        }
+
+}
+
+export const PRODUCT_HOTFIND = {
+    imgPath: HOTFIND_IMG,
+    productName: "HOTFIND-S 红外相机",
+    subtitle: "新冠肺炎期间的高级发烧筛查器",
+    description: "描述：HotFind-S 采用新的成像处理技术减少干扰，结合最新一代 384 x 288 探测器的出色性能，可产生更清晰的热图像，并确保在环境温度变化下获得准确的结果。",
+    features : {
+        name: "特征",
+        details: [
+            "呈现实时热图像",
+            "384×288 红外探测器， 110,592 像素",
+            "-20°C 至 60°C 温度测量，热精度为 ±0.3°C",
+            "3 种成像模式：IR、数字 (CCD) 和 Duo Vision",
+            "通过触摸屏或键盘进行双重控制",
+            "3.5”液晶倾斜屏幕",
+            "多种可选镜头",
+            "大存储容量",
+            "实时USB数据传输",
+            "提供安装模式和连续监控功能"
+            ],
+    },
+    specification: {
+        name: "规格",
+        details: [
+            "热像仪",
+            "分辨率：384×288",
+            "螺旋分辨率：1.1 mrad",
+            "FOV/Min焦距：24°x18°/0.15m",
+            "热灵敏度（N.E.T.D）：≤0.05°C@30°C",
+            "探测器类型：UFPA",
+            "光谱范围：8-14 µm",
+            "对焦方式：手动",
+            "图像模式：IR/CCD/Duo-vision/Duo-vision Plus",
+            "LCD 显示屏：3.5 英寸电容式触摸屏",
+            "文件格式：.JPG",
+            "测量",
+            "温度范围：-20°C ~ 600°C",
+            "精度：±0.3°C",
+            "温度警报：是的，检测异常温度",
+            "环境",
+            "工作温度：-20°C ~ 60°C",
+            "储存：-40°C ~ 70°C",
+            "物理特性（相机机身）",
+            "重量：小于900g",
+            "接口",
+            "视频输出：NTSC (60Hz)/PAL (50Hz)",
+            "键盘：有",
+            "防护性能",
+            "封装：IP54",
+            "抗震性：25G/2G",
+            "防摔：是",
+            "附加的功能",
+            "内置内存：是",
+            "蓝牙：有"
+        ]
+
+    },
+    literatures: {
+        name: "资料",
+        docs: [
+            {
+                title: "用于新冠肺炎监测的红外和温度摄像机",
+                updated: "更新日期: 04/29/2020",
+                fileSize: "文件大小: 5.4 MB"
+            }
+        ]
+    },
+     videos: {
+            name: "视频",
+            details: [
+                {videoPath: "https://www.youtube.com/watch?v=XDqDElDHgeo"},
+                {videoPath: "https://www.youtube.com/watch?v=pJoTnIuqi0Q"}
+            ]
+        }
+
+}
+
+export const PRODUCT_SATIR2 = {
+    imgPath: SATIR2_IMG,
+    productName: "SATIR V 系列气体检测相机",
+    subtitle: "具有定性结果的实时气体成像设备",
+    description: "描述：V 系列红外热像仪包括 V80、V80 Pro 和 V90，是 SATIR 最新的高性能气体检测热像仪。传统的气体检测方法可能既复杂又耗时。然而，SATIR V 系列相机可以提供清晰而快速的结果。 V 系列为用户提供视觉结果，以便他们可以查明 VOC 气体泄漏及其来源。此类技术已应用于石化、炼油厂、消防救援以及石油和天然气行业。",
+    features : {
+        name: "特征",
+        details: [
+            "V 系列内置带 LED 的高清数码相机，允许用户同时保存红外图像和可见光图像。这允许用户在以后交叉检查图像。录像功能可实时记录测试过程，同时存储所有温度数据。用户可以回放整个测试过程视频，并对视频进行分析，生成相应的测试报告。",
+            "V 系列是一款高度灵敏的相机，这意味着它很少会错过检测到气体泄漏的情况。由于冷却 QWIP 检测器的灵敏度，V80 相机具有很高的灵敏度。其温度分辨率达到 0.025°C，检漏灵敏度达到 0.0001 ml/s。即使在很小的温差下，也可以检测和捕获微小的泄漏。 V90 还具有防爆功能，可在各种环境中安全使用。",
+            "V系列配备激光定位，可直接在红外图像上显示激光光斑，也可显示激光光斑温度值。这使得用户可以方便地控制位置。 V系列还有其他功能，如录音、实时传输和内部存储，这些都是为了改善用户体验而设计的。",
+            "320×256像素的高探测器分辨率",
+            "高清取景器和 3.5 英寸 LCD 触摸屏显示器",
+            "可检测小至0.001ml/s的气体泄漏，多级高灵敏度模式调节",
+            "无需关闭工序即可进行检查",
+            "无需光辅助和反射背景即可直接捕捉图像",
+            "在安全距离内实现非接触式测量",
+            "防爆 V90 确保在各种条件下的安全"
+            ],
+    },
+    specification: {
+        name: "规格",
+        details: [
+            ""
+        ]
+
+    },
+    literatures: {
+        name: "资料",
+        docs: [
+            {
+                title: "",
+                updated: "",
+                fileSize: ""
+            }
+        ]
+    },
+     videos: {
+            name: "视频",
+            details: [
+                {videoPath: ""}
+            ]
+        }
+
+}
+
