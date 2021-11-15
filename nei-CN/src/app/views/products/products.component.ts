@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { GAS_SAMPLE_BG, PRODUCT_DV3000, PRODUCT_HOTFIND, PRODUCT_P100, PRODUCT_P300, PRODUCT_PANDA, PRODUCT_SATIR2, PRODUCT_W1000 } from 'src/app/constants';
+import { GAS_SAMPLE_BG, PRODUCT_DV3000, PRODUCT_GAS_SAMPLING_BAGS, PRODUCT_HOTFIND, PRODUCT_P100, PRODUCT_P300, PRODUCT_PANDA, PRODUCT_SATIR2, PRODUCT_W1000, TEDLAR_BAG_IMG } from 'src/app/constants';
 
 @Component({
   selector: 'app-products',
@@ -21,6 +21,7 @@ export class ProductsComponent implements OnInit {
       if (productName === "gas-sampling-bags") {
         this.gasSamplePage = true;
         this.productPage = false;
+        this.product = PRODUCT_GAS_SAMPLING_BAGS;
       } else {
         this.gasSamplePage = false;
         this.productPage = true;

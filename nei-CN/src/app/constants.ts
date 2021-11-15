@@ -39,6 +39,10 @@ export const DV3000_IMG = 'assets/products-DV3000.png';
 export const PANDA_IMG = 'assets/products-Panda.png';
 export const HOTFIND_IMG = 'assets/products-Hotfind-S.png';
 export const SATIR2_IMG = 'assets/products-Satir2-1.png';
+export const TEDLAR_BAG_IMG = 'assets/Tedlar-bag.png';
+export const SS_BAG_IMG = 'assets/SS-bag.png';
+export const PTFE_BAG_IMG = 'assets/PTFE-bag.png';
+export const NALOPHEN_BAG_IMG = 'assets/Nalophen.png';
 
 export const EVENTS = [
     {
@@ -843,4 +847,27 @@ export const PRODUCT_SATIR2 = {
         }
 
 }
+
+export const PRODUCT_GAS_SAMPLING_BAGS = [
+    {
+        title: '聚四氟乙烯空气样品袋',
+        imgPath: TEDLAR_BAG_IMG,
+        description: '这些样品袋比 Tedlar 袋子具有更高的抗污染性和更长的保质时间。袋子材料也符合所有标准。 PTFE 样品袋具有极强的抗污染性，因此可以轻松清洁和重复使用。聚四氟乙烯样品袋已经获得安大略省环境部和世界上几乎所有其他司法管辖区的批准。SCENTROID 聚四氟乙烯袋由纯聚四氟乙烯薄膜制成。Scentroid 轻型尼龙和 PTFE 配件易于使用，可防止重复操作对袋子造成的损坏。'
+    },
+    {
+        title: 'SS空气样品袋',
+        imgPath: SS_BAG_IMG,
+        description: 'Scentroid不锈钢袋采用电抛光海洋级（400系列）不锈钢薄膜制成。不锈钢采样袋非常适合对腐蚀性物质（如高 H2S 或苯）进行采样。不锈钢被卷成薄膜，不但具有灵活性，也能够 100% 的保存样品。一般会使用scentroid不锈钢袋来代替Sumo罐。SCENTROID不锈钢袋由纯400系列不锈钢薄膜制成，接缝处焊接。 Scentroid 不锈钢接头易于使用，为不锈钢袋采样提供了耐用且超洁净的解决方案。'
+    },
+    {
+        title: 'TEDLAR 空气样品袋',
+        imgPath: TEDLAR_BAG_IMG,
+        description: 'Tedlar 袋提供可重复使用的存储介质。\n Scentroid Tedlar 袋由 2 磨厚的薄膜制成，并使用 Scentroid 的专利加热/真空净化器在 100 °C 下净化，以获得最终纯度。SCENTROID Tedlar 袋采用杜邦 Tedlar 薄膜制成。\n Scentroid 轻型尼龙和 PTFE 配件易于使用，可防止重复操作对袋子造成损坏。'
+    },
+    {
+        title: 'NALOPHAN空气样品袋',
+        imgPath: NALOPHEN_BAG_IMG,
+        description: 'Nalophan 是一种用于制作一次性样品袋的廉价材料。\n Nalophan 对大多数化合物（如 H2S、氨和 VOC）的保持时间最短。\n 由经典 Nalophan 薄膜制成的 SCENTROID Nalophan 袋子是一种经济实惠的空气采样解决方案。 Nalophan 袋子在欧洲和北美部分地区常用，因为它们具有相对较好的保存时间和实惠的价格。袋子使用方便，用过一次就扔掉，无需清洗和重复使用。'
+    }
+]
 

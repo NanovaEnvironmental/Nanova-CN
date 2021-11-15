@@ -81,9 +81,31 @@
         </div>
     </div>
     <div class="container">
-        <div></div>
+        <div *ngFor="let bag of product; let i = index">
+            <div *ngIf="i % 2 === 0" class="row" >
+                <div class="col-sm-6">
+                    <h2>{{ bag.title }}</h2>
+                    <p>{{ bag.description }}</p>
+                    <button mat-flat-button>获取更多信息</button>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5">
+                    <img src={{bag.imgPath}}>
+                </div>
+            </div>
+            <div *ngIf="i % 2 !== 0" class="row" >
+                <div class="col-sm-5">
+                    <img src={{bag.imgPath}}>
+                </div>
+                <div class="col-sm-1"></div>
+                <div class="col-sm-6">
+                    <h2>{{ bag.title }}</h2>
+                    <p  class="mt-50 mb-30">{{ bag.description }}</p>
+                    <button mat-flat-button>获取更多信息</button>
+                </div>
+            </div>
+        </div>
     </div>
-
 </div>
 
 <app-question-form></app-question-form>
