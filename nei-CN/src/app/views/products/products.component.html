@@ -1,4 +1,4 @@
-<div class="container">
+<div *ngIf="productPage" class="container">
     <div class="row">
         <div class="col-sm-5">
             <img [src]="product.imgPath">
@@ -58,10 +58,32 @@
                     <mat-panel-title >
                         {{ product.videos.name }}
                     </mat-panel-title>
-                </mat-expansion-panel-header>   
+                </mat-expansion-panel-header>
+                <div fxLayout fxLayoutAlign="space-around center">
+                    <div *ngFor="let video of product.videos.details">
+                        <video controls>
+                            <source src={{video.videoPath}} type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video>
+                    </div>
+                </div>  
             </mat-expansion-panel>
         </mat-accordion>
     </div>
+</div>
+
+<div *ngIf="gasSamplePage">
+    <div class="hd-container">
+        <img [src]="bgImg" class="tp-bgimg">
+        <div class="tx-wrapper">
+            <div class="hd-hd"><h2>气体样品</h2></div>
+            <div>先进的空气采样袋确保了最长的保存时间和零污染。我们现有4种类型的气体采样袋FRON Scentroid，满足有关气体采样的各种需求。</div>
+        </div>
+    </div>
+    <div class="container">
+        <div></div>
+    </div>
+
 </div>
 
 <app-question-form></app-question-form>

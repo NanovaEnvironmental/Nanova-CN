@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { PRODUCT_P100, PRODUCT_P300 } from 'src/app/constants';
+import { GAS_SAMPLE_BG, PRODUCT_DV3000, PRODUCT_HOTFIND, PRODUCT_P100, PRODUCT_P300, PRODUCT_PANDA, PRODUCT_SATIR2, PRODUCT_W1000 } from 'src/app/constants';
 
 @Component({
   selector: 'app-products',
@@ -9,16 +9,36 @@ import { PRODUCT_P100, PRODUCT_P300 } from 'src/app/constants';
 })
 export class ProductsComponent implements OnInit {
   product: any;
+  gasSamplePage = false;
+  productPage = false;
+  bgImg = GAS_SAMPLE_BG;
 
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
       const productName = params.get("product");
-      if (productName === "novatestp100") {
-        this.product = PRODUCT_P100;
-      } else if (productName === "novatestp300") {
-        this.product = PRODUCT_P300;
+      if (productName === "gas-sampling-bags") {
+        this.gasSamplePage = true;
+        this.productPage = false;
+      } else {
+        this.gasSamplePage = false;
+        this.productPage = true;
+        if (productName === "novatestp100") {
+          this.product = PRODUCT_P100;
+        } else if (productName === "novatestp300") {
+          this.product = PRODUCT_P300;
+        } else if (productName === "novatestw1000") {
+          this.product = PRODUCT_W1000;
+        } else if (productName === "dv3000") {
+          this.product = PRODUCT_DV3000;
+        } else if (productName === "pandair") {
+          this.product = PRODUCT_PANDA;
+        } else if (productName === "hotfind-sir") {
+          this.product = PRODUCT_HOTFIND;
+        } else if (productName === "satirvseries") {
+          this.product = PRODUCT_SATIR2;
+        }
       }
     })
   }

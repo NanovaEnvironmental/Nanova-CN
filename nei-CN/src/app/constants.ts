@@ -29,6 +29,7 @@ export const REQUEST_QUOTE_BG = 'assets/REQUEST-QUOTE.png';
 export const RESOUCES_BG = 'assets/Resource-bg.png';
 export const P100_BG = 'assets/P100.png';
 export const HOME_BG = 'assets/Home.png';
+export const GAS_SAMPLE_BG = 'assets/Sampling-bags.png';
 
 // product pictures
 export const P100_IMG = 'assets/products-P100.png';
