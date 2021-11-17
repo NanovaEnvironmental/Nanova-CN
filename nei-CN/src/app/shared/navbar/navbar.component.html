@@ -42,25 +42,25 @@
                     <button mat-menu-item [matMenuTriggerFor]="energy">能源</button>
                     <button mat-menu-item [matMenuTriggerFor]="env">环境</button>
                     <button mat-menu-item [matMenuTriggerFor]="indoor">室内</button>
-                    <button mat-menu-item routerLink="application/phar">制药</button>
+                    <button mat-menu-item routerLink="application/pharmaceutical-production-and-processing">制药</button>
                     <button mat-menu-item [matMenuTriggerFor]="edu">科研与教育</button>
                 </mat-menu> 
 
                 <mat-menu #auto="matMenu">
                     <button mat-menu-item routerLink="application/auto-material">车辆材料释放</button>
-                    <button mat-menu-item routerLink="application/leak">泄漏检测</button>
-                    <button mat-menu-item routerLink="application/emission">汽车排放</button>
-                    <button mat-menu-item routerLink="application/auto-indoor">汽车室内空气质量</button>
+                    <button mat-menu-item routerLink="application/leak-detection">泄漏检测</button>
+                    <button mat-menu-item routerLink="application/vehicle-emission">汽车排放</button>
+                    <button mat-menu-item routerLink="application/vehicle-indoor-air-quality">汽车室内空气质量</button>
                 </mat-menu> 
 
                 <mat-menu #energy="matMenu">
-                    <button mat-menu-item routerLink="application/fenceline">厂界监测</button>
+                    <button mat-menu-item routerLink="application/fenceline-monitoring">厂界监测</button>
                     <button mat-menu-item routerLink="application/petrochemical">石化</button>
                 </mat-menu> 
 
                 <mat-menu #env="matMenu">
-                    <button mat-menu-item routerLink="application/ambient">环境空气监测</button>
-                    <button mat-menu-item routerLink="application/landfill">垃圾填埋和沼气</button>
+                    <button mat-menu-item routerLink="application/ambient-air-monitoring">环境空气监测</button>
+                    <button mat-menu-item routerLink="application/landfill-and-biogas">垃圾填埋和沼气</button>
                     <button mat-menu-item routerLink="application/odor">气味</button>
                     <button mat-menu-item routerLink="application/vocs-in-water">水中VOC</button>
                 </mat-menu>
@@ -71,8 +71,8 @@
                 </mat-menu> 
 
                 <mat-menu #edu="matMenu">
-                    <button mat-menu-item routerLink="application/breath">呼吸研究</button>
-                    <button mat-menu-item routerLink="application/research">科研</button>
+                    <button mat-menu-item routerLink="application/breath-research">呼吸研究</button>
+                    <button mat-menu-item routerLink="application/laboratory-and-research">科研</button>
                 </mat-menu> 
             <button mat-button [matMenuTriggerFor]="resources">资源</button>
                 <mat-menu #resources="matMenu">
