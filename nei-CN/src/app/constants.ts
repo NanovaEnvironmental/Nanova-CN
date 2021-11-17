@@ -15,7 +15,7 @@ export const DUVAS_IMG = 'assets/Duvas-Logo.png';
 export const SATIR_IMG = 'assets/Satir-Logo.png';
 export const SCENTR_IMG = 'assets/Scentroid-logo.png';
 
-// backgroud image
+// Backgroud Image
 export const MAIN_BG_IMG = 'assets/mainpage-background.png';
 export const BUSI_PART_BG ='assets/Business-Partners.png';
 export const SUPPORT_BG = 'assets/support-bg.png';
@@ -41,10 +41,13 @@ export const LANDFILL_N_BIOGAS_BG = 'assets/Landfill-n-biogas.png';
 export const ODOR_BG = 'assets/Odor.png';
 export const VOCS_IN_WATER_BG = 'assets/VOCs-in-water.png';
 export const INDOOR_AIR_QUALITY_BG = 'assets/Indoor-air-quality.png';
-export const OCCUPATIONAL_HEALTH_BG = 'assets/Odor.png';
+export const OCCUPATIONAL_HEALTH_BG = 'assets/Occupational-health.png';
+export const PHARMACEUTICAL_PRODUCTION_BG = 'assets/Pharmaceutical-production.png';
+export const BREATH_RESEARCH_BG = 'assets/Breath-research.png';
+export const RESEARCH_BG = 'assets/Research.png';
 
 
-// product pictures
+// Product Pictures
 export const P100_IMG = 'assets/products-P100.png';
 export const P300_IMG = 'assets/products-P300.png';
 export const W1000_IMG = 'assets/products-W1000.png';
@@ -1455,3 +1458,141 @@ export const OCCUPATIONAL_HEALTH_SAFETY = {
         }
     ]
 }
+
+// Pharmaceutical
+export const PHARMACEUTICAL_PRODUCTION = {
+    header: {
+        headImg: PHARMACEUTICAL_PRODUCTION_BG,
+        head: '制药生产加工监控',
+        text: '用于制药生产和加工以及空气质量的快速 VOC 检测和持续 VOC 监测的综合解决方案。'
+    },
+    description: [
+        {
+            title: '质量保证的快速测试',
+            para: [
+                '药物加工和生产通常涉及一系列用于溶剂、粘合剂、包装材料等的挥发性有机化合物 (VOC)。这些挥发性有机化合物可以进入周围的空气，甚至进入药品本身。药物受到严格的法规的约束，这些法规控制最终产品中允许的这些化合物的数量。可靠的监控对于确保工作场所安全和质量控制非常重要。然而，由于传统技术的时间要求和复杂性，这些 VOC 可能难以有效监测。需要快速、全面的分析来妥善解决这些问题。',
+                'NovaTest P100 和 P300 可以在任何位置快速采样和分析环境空气，使其成为排放测试和泄漏检测的有用设备。该设备从环境空气中取样，无需任何额外的设备或样品制备。紧凑的设计使他们可以方便地测试传统台式设备无法到达的任何位置的空气，同时他们还能够在单次测试中以高灵敏度检测各种化合物，并且系统会自动生成即时报告并计算出结果。' 
+            ]
+        }
+    ],
+    challenges: {
+        para: [
+            '缓慢的传统测试限制了更广泛的质量控制解决方案的实施。需要更快的采样和分析，以提供有效响应所需的即时反馈',
+            '化学性质多样的 VOC 会使综合分析变得复杂且耗时',
+            '生产过程可能涉及一系列 VOC，因此很难实施单一的测试方法'
+        ]
+    },
+    solutions: {
+        para: [
+            '自动采样和快速分析范围广泛的 VOC 并具有即时计算结果，提供易于理解的即时反馈，因此用户可以快速实施必要的健康和安全措施',
+            '只需一次测试即可在几分钟内检测和分析多种 VOC，无需专业 GC 背景即可执行',
+            '提供自定义方法以确保通过单个简单的测试即可进行全面分析'
+        ]
+    },
+    helpProducts: [
+        {
+            imgPath: P100_IMG,
+            productName: "NovaTest P100 便携式气相色谱仪",
+        },
+        {
+            imgPath: P300_IMG,
+            productName: "NovaTest W1000 Online VOC Monitor (Alpha)",
+        },
+        {
+            imgPath: SATIR2_IMG,
+            productName: "SATIR V 系列气体检测相机"
+        }
+    ]
+}
+
+// RESEARCH & EDUCATION
+export const BREATH_RESEARCH = {
+    header: {
+        headImg: BREATH_RESEARCH_BG,
+        head: '呼吸研究',
+        text: '带有便携式气相色谱仪和用户友好界面的呼吸研究综合解决方案。'
+    },
+    description: [
+        {
+            title: '用于早期诊断的快速分析',
+            para: [
+                '各种代谢过程会产生挥发性有机化合物 (VOC) 和某些无机气体作为副产品。可以将身体不适的情况与“健康”人群的情况进行比较，以使用排放化合物的变化作为生物标志物来指示某些情况。该技术可用于筛查患者的肾脏疾病、糖尿病、呼吸系统疾病、某些形式的癌症或其他疾病。呼吸分析是一种特别有用的技术，因为它是非侵入性的，可用于在更严重的症状出现之前筛查病情。该技术还可用于各种其他应用，包括在手术期间监测麻醉剂或评估污染事件后的暴露。然而，使用传统技术很难有效检测小浓度的这些不同的化合物。需要快速、全面的分析才能正确实施呼吸分析。',
+                'NovaTest P100 和 P300 可以在任何位置快速采样和分析环境空气，使其成为排放测试和泄漏检测的有用设备。该设备从环境空气中取样，无需任何额外的设备或样品制备。紧凑的设计使他们可以方便地测试传统台式设备无法到达的任何位置的空气，同时他们还能够在单次测试中以高灵敏度检测各种化合物，并且系统会自动生成即时报告并计算出结果。' 
+            ]
+        }
+    ],
+    challenges: {
+        para: [
+            '癌症、糖尿病和其他疾病的发病率在世界范围内不断增加。早期诊断将有助于提高治疗效果，但目前的侵入性检测技术对筛查或早期检测无用。',
+            '传统的空气测试方法速度慢，而且结果不是立竿见影的。需要更快的采样和分析，以提供有效响应所需的即时反馈',
+            '化学成分多样的 VOC 和其他化合物会使综合分析变得复杂且耗时',
+            '呼吸中可能存在范围广泛的 VOC，浓度很小，因此很难实施单一的测试方法'
+        ]
+    },
+    solutions: {
+        para: [
+            '呼吸分析是一种有效的早期检测筛查技术，因为它是非侵入性的。如果实施，患者可以立即获得有助于早期诊断和治疗的结果',
+            '自动采样和快速分析范围广泛的 VOC 并具有即时计算结果，提供易于理解的即时反馈，因此患者和医生可以快速有效的治疗方案',
+            '只需一次测试即可在几分钟内检测和分析多种 VOC，无需专业 GC 背景即可执行',
+            '提供自定义方法以确保通过单个简单的测试即可进行全面分析'
+        ]
+    },
+    helpProducts: [
+        {
+            imgPath: P100_IMG,
+            productName: "NovaTest P100 便携式气相色谱仪",
+        },
+        {
+            imgPath: P300_IMG,
+            productName: "NovaTest W1000 Online VOC Monitor (Alpha)",
+        }
+    ]
+}
+
+export const LABORATORY_RESEARCH = {
+    header: {
+        headImg: RESEARCH_BG,
+        head: '科学研究',
+        text: '具有全面结果的快速采样和分析改进了 VOCS 的研究和检测。'
+    },
+    description: [
+        {
+            title: '快速、全面的结果',
+            para: [
+                '挥发性有机化合物 (VOC) 数量众多、种类繁多且无处不在，包括人造和天然存在的化合物。一些挥发性有机化合物对人体健康有害，对环境有害。现场监测 VOC 并立即获得结果可以在小浓度 VOC 成为更大问题之前检测到它们的存在。',
+                '传统的气相色谱速度慢，需要大量的培训和经验。 NovaTest 设备通过允许用户针对感兴趣的特定化合物来加快过程。用户友好的界面和自动采样和分析也使设备易于使用，无需以前的 GC 经验。这些功能使 NovaTest 产品在实验室应用中具有多功能性，尤其是在需要快速结果的情况下。现场测试环境空气或水的能力可用于进行环境影响评估，而持续监测 VOC 的能力可用于长期大气和气候研究。',
+                'NovaTest P100 和 P300 可以在任何位置快速采样和分析环境空气，使其成为排放测试和泄漏检测的有用设备。该设备从环境空气中取样，无需任何额外的设备或样品制备。紧凑的设计使他们可以方便地测试传统台式设备无法到达的任何位置的空气，同时他们还能够在单次测试中以高灵敏度检测各种化合物，并且系统会自动生成即时报告并计算出结果。' ,
+                'NovaTest W1000 提供有效水监测所需的连续在线监测解决方案。 W1000 可以自动采样和分析水中的 VOC，并在目标化合物超过特定阈值时提醒用户。持续、实时的分析可提供即时反馈，从而可以快速解决任何水质问题，以保护周边社区的健康和安全。 NovaTest P300 还可与吹扫捕集系统一起使用，以对水中的 VOC 进行采样和分析。 P300 可以轻松运输，以便在任何地点进行现场采样。'
+            ]
+        }
+    ],
+    challenges: {
+        para: [
+            '需要以高灵敏度进行更快的采样和分析，以提供有用的即时反馈',
+            '综合分析往往需要使用多种技术进行多次测试，使测试变得复杂',
+            '样品可能包含来自众多来源的各种有害 VOC'
+        ]
+    },
+    solutions: {
+        para: [
+            '自动采样和快速分析范围广泛的 VOC 并具有即时计算结果，可提供易于理解的即时反馈。',
+            '无需专业 GC 背景即可在一次测试中检测和分析多种 VOC',
+            '提供定制的分析方法，确保单次测试即可全面分析'
+        ]
+    },
+    helpProducts: [
+        {
+            imgPath: P100_IMG,
+            productName: "NovaTest P100 便携式气相色谱仪",
+        },
+        {
+            imgPath: P300_IMG,
+            productName: "NovaTest W1000 Online VOC Monitor (Alpha)",
+        },
+        {
+            imgPath: W1000_IMG,
+            productName: "DV3000 实时空气监测器"
+        }
+    ]
+}
+
