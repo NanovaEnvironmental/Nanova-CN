@@ -8,11 +8,14 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ApplicationsComponent implements OnInit {
 
+  bgImg: any;
+
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
       const app = params.get("app"); 
+      // if (app === '')
     })
   }
 }

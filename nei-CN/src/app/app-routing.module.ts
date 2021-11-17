@@ -31,7 +31,7 @@ const routes: Routes = [
   { path: 'faqs/:product', component: FaqsComponent},
   { path: 'resources/:resource', component: ResourcesComponent},
   { path: 'products/:product', component: ProductsComponent},
-  { path: 'applications/:app', component: ApplicationsComponent}
+  { path: 'application/:app', component: ApplicationsComponent}
  ];
 
 @NgModule({

@@ -8,17 +8,19 @@ import { FooterComponent } from './footer/footer.component';
 import { QuestionFormComponent } from './question-form/question-form.component';
 import { MaterialModule } from "../material.module";
 import { EventsComponent } from './events/events.component';
+import { ExploreMoreComponent } from './explore-more/explore-more.component';
 
 const sharedComponents = [
     NavbarComponent,
     FooterComponent,
     QuestionFormComponent,
-    EventsComponent
+    EventsComponent,
+    ExploreMoreComponent
 ];
 
 @NgModule({
   declarations: [
-    ...sharedComponents
+    ...sharedComponents,
   ],
   imports: [
     MaterialModule,
