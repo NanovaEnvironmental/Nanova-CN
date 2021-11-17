@@ -40,6 +40,8 @@ export const AMBIENT_AIR_BG = 'assets/Ambient-air.png';
 export const LANDFILL_N_BIOGAS_BG = 'assets/Landfill-n-biogas.png';
 export const ODOR_BG = 'assets/Odor.png';
 export const VOCS_IN_WATER_BG = 'assets/VOCs-in-water.png';
+export const INDOOR_AIR_QUALITY_BG = 'assets/Indoor-air-quality.png';
+export const OCCUPATIONAL_HEALTH_BG = 'assets/Odor.png';
 
 
 // product pictures
@@ -335,12 +337,12 @@ export const GAS_CHROMATOGRAPHY_RESOURCE = [
                 title: "报告 & 资料",
                 docs: [
                     {
-                        title:"应用说明 1 – 使用 NovaTest P100 Compact GC 分析环境 BTEX",
+                        title:"应用说明 1 – 使用 NovaTest P100 便携式气相色谱仪 分析环境 BTEX",
                         updated: "更新日期: 08/08/2017",
                         fileSize: "文件大小: 353 KB"
                     },
                     {
-                        title:"应用说明 2 – 使用 NovaTest P100 Compact GC 分析车辆中的 BTEX",
+                        title:"应用说明 2 – 使用 NovaTest P100 便携式气相色谱仪 分析车辆中的 BTEX",
                         updated: "更新日期: 08/08/2017",
                         fileSize: "文件大小: 118 KB"
                     }
@@ -350,12 +352,12 @@ export const GAS_CHROMATOGRAPHY_RESOURCE = [
                 title: "表格 & 其他文件",
                 docs: [
                     {
-                        title:"NovaTest Compact GC 气相色谱仪 可检测的化合物",
+                        title:"NovaTest 便携式气相色谱仪 气相色谱仪 可检测的化合物",
                         updated: "更新日期: 11/28/2018",
                         fileSize: "文件大小: 421 KB"
                     },
                     {
-                        title:"NovaTest Compact GC 客户调查表",
+                        title:"NovaTest 便携式气相色谱仪 客户调查表",
                         updated: "更新日期: 08/23/2017",
                         fileSize: "文件大小: 48 KB"
                     }
@@ -380,12 +382,12 @@ export const GAS_CHROMATOGRAPHY_RESOURCE = [
                 title: "表格 & 其他文件",
                 docs: [
                     {
-                        title:"NovaTest Compact GC 可检测的化合物",
+                        title:"NovaTest 便携式气相色谱仪 可检测的化合物",
                         updated: "更新日期: 11/28/2018",
                         fileSize: "文件大小: 421 KB"
                     },
                     {
-                        title:"NovaTest GC 客户调查表",
+                        title:"NovaTest 气相色谱仪 客户调查表",
                         updated: "更新日期: 08/23/2017",
                         fileSize: "文件大小: 48 KB"
                     }
@@ -400,7 +402,7 @@ export const GAS_CHROMATOGRAPHY_RESOURCE = [
                 title: "表格 & 其他文件",
                 docs: [
                     {
-                        title:"NovaTest GC 客户调查表",
+                        title:"NovaTest 气相色谱仪 客户调查表",
                         updated: "更新日期: 08/23/2017",
                         fileSize: "文件大小: 48 KB"
                     }
@@ -428,7 +430,7 @@ export const SPECTROSCOPY_RESOURCE = [{
 
 export const PRODUCT_P100 = {
     imgPath: P100_IMG,
-    productName: "NovaTest P100 Compact GC",
+    productName: "NovaTest P100 便携式气相色谱仪",
     subtitle: "用于做现场快速 VOC 筛查",
     PN: "P/N: PT1A",
     description: "描述： NovaTest P100 是一款获得了专利的便携型气相色谱仪，其设计用于快速分离和检测 VOC 混合物以及一些挥发性无机化合物。其高灵敏度使得操作员可以在较低的pub级别看到化学物质，且不必担心便利性和分析性能之间的补偿。",
@@ -442,7 +444,7 @@ export const PRODUCT_P100 = {
             "两种操作模式 - 使用最少参数输入的快速测试和每个参数均可编辑的传统测试。",
             "内置方法里包含目标化合物的信息和编程参数。用户只需输入采样时间即可开始测试。",
             "测试计算结果的即时报告为用户节省了大量的数据分析时间。特别是还计算了目标化合物的浓度。报告可立即打印。",
-            "P100 将分析时间从传统 GC 的几十分钟缩短到几分钟。它可以在 3 分钟内很好地分离 BTEX。P100 使用 PID（光电离检测器）检测化合物，检测下限为亚 ppb（苯）。大多数物质的 FWHM 小于 5 秒。",
+            "P100 将分析时间从传统 气相色谱仪 的几十分钟缩短到几分钟。它可以在 3 分钟内很好地分离 BTEX。P100 使用 PID（光电离检测器）检测化合物，检测下限为亚 ppb（苯）。大多数物质的 FWHM 小于 5 秒。",
             "P100 的尺寸是 36 x 30 x 15 厘米， 7 公斤，只是一个包包的大小。一般只需要一台笔记本电脑来协助测试"
             ],
     },
@@ -474,12 +476,12 @@ export const PRODUCT_P100 = {
                 fileSize: "文件大小: 1 MB"
             },
             {
-                title: "应用说明 1 – 使用 NovaTest P100 便携式 GC 分析环境 BTEX",
+                title: "应用说明 1 – 使用 NovaTest P100 便携式 气相色谱仪 分析环境 BTEX",
                 update: "更新日期: 08/08/2017",
                 fileSize: "文件大小: 353 MB"
             },
             {
-                title: "应用说明 1 – 使用 NovaTest P100 便携式 GC 分析环境 BTEX",
+                title: "应用说明 1 – 使用 NovaTest P100 便携式 气相色谱仪 分析环境 BTEX",
                 update: "更新日期: 08/08/2017",
                 fileSize: "文件大小: 353 MB"
             }
@@ -498,10 +500,10 @@ export const PRODUCT_P100 = {
 
 export const PRODUCT_P300 = {
     imgPath: P300_IMG,
-    productName: "NovaTest P300 Integrated Compact GC (Beta)",
+    productName: "NovaTest P300 Integrated 便携式气相色谱仪 (Beta)",
     subtitle: "用于现场快速便捷的 VOC 筛查",
     PN: "P/N: PT2A",
-    description: "描述：带有集成触摸显示屏计算机的便携式 GC。 NovaTest P300 可以在一台设备内进行采样、分析和查看结果。它专为方便、快速测试复杂的挥发性有机化合物 (VOC) 和一些高灵敏度的挥发性无机化合物而设计。封闭式结构和温控外壳使其在任何条件下都更加稳定可靠。",
+    description: "描述：带有集成触摸显示屏计算机的便携式 气相色谱仪。 NovaTest P300 可以在一台设备内进行采样、分析和查看结果。它专为方便、快速测试复杂的挥发性有机化合物 (VOC) 和一些高灵敏度的挥发性无机化合物而设计。封闭式结构和温控外壳使其在任何条件下都更加稳定可靠。",
     features : {
         name: "特征",
         details: [
@@ -514,7 +516,7 @@ export const PRODUCT_P300 = {
             "用户输入：内置方法预先确定了目标化合物的信息和编程参数。用户只需输入采样时间和等待时间即可开始测试。",
             "内置电池：内置电池可支持4小时以上的测试。电池需要充电时会有提示。",
             "功能强大：P300 使用 PID（光电离检测器）检测化合物，检测下限为亚 ppb（苯）。大多数物质的 FWHM 小于 5 秒。",
-            "快捷：P300 将分析时间从传统 GC 的几十分钟缩短到仅几分钟。它可以在不到 3 分钟的时间内很好地分离 BTEX。"
+            "快捷：P300 将分析时间从传统 气相色谱仪 的几十分钟缩短到仅几分钟。它可以在不到 3 分钟的时间内很好地分离 BTEX。"
             ],
     },
     specification: {
@@ -559,7 +561,7 @@ export const PRODUCT_P300 = {
 export const PRODUCT_W1000 = {
     imgPath: W1000_IMG,
     productName: "NovaTest W1000 Online VOC Monitor (Alpha)",
-    subtitle: "用于连续监测水中 VOC 的在线 GC",
+    subtitle: "用于连续监测水中 VOC 的在线 气相色谱仪",
     PN: "P/N: PT3A",
     description: "描述：NovaTest W1000 (alpha) 该产品是一款用于持续监测水质的可连网设备。能够快速以高灵敏度检测和分析复杂的挥发性有机化合物 (VOC) 和一些挥发性无机化合物。其封闭式的温控结构设计在任何条件下都准确可靠，标准底盘也适用于大多数现有的空气监测站。",
     features : {
@@ -571,7 +573,7 @@ export const PRODUCT_W1000 = {
             "连续监测：内置方法预先确定了目标化合物的信息和编程参数，无需用户输入。采样时间、等待时间和采样间隔也可以提前设定，使系统能够在无人值守的情况下连续运行。",
             "即时报告： W1000 从任意测试中生成的带有计算结果的即时报告为用户节省了大量的数据分析时间。内置方法的报告中还计算了目标化合物的浓度。报告可立即打印使用。",
             "功能强大：W1000 使用 PID（光电离检测器）检测化合物，检测限为亚 ppb（苯）。大多数物质的 FWHM 小于 5 秒。",
-            "快捷：W1000 将分析时间从传统 GC 的几十分钟缩短到仅几分钟。它可以在不到 3 分钟的时间内很好地分离 BTEX。",
+            "快捷：W1000 将分析时间从传统 气相色谱仪 的几十分钟缩短到仅几分钟。它可以在不到 3 分钟的时间内很好地分离 BTEX。",
             "温控：温控外壳可抑制保留时间的气流并确保在任何条件下都能获得准确的结果。"
             ],
     },
@@ -888,7 +890,7 @@ export const AUTO_MAT_EMMISION = {
     header: {
         headImg: MATERIAL_EMISSIONS_BG,
         head: '汽车材料释放物',
-        text: '便携式 GC 可以在传统台式 GCS 无法到达的地方测试 VOC，并且可以帮助确保安全和质量，检测下限为亚苯。'
+        text: '便携式 气相色谱仪 可以在传统台式 气相色谱仪S 无法到达的地方测试 VOC，并且可以帮助确保安全和质量，检测下限为亚苯。'
     },
     description: [
         {
@@ -909,18 +911,18 @@ export const AUTO_MAT_EMMISION = {
     solutions: {
         para: [
             '自动采样、快速分析多种VOCs，即时计算结果，提供易懂的即时反馈，生产过程中可应用连续在线解决方案，节省时间',
-            '无需专业 GC 背景即可在一次测试中检测和分析多种 VOC',
+            '无需专业 气相色谱仪 背景即可在一次测试中检测和分析多种 VOC',
             '提供定制的分析方法，确保单次测试即可实现全面分析'
         ]
     },
     helpProducts: [
         {
             imgPath: P100_IMG,
-            productName: "NovaTest P100 Compact GC",
+            productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
-            productName: "NovaTest P300 Integrated Compact GC (Beta)",
+            productName: "NovaTest P300 Integrated 便携式气相色谱仪 (Beta)",
         },
         {
             imgPath: SATIR2_IMG,
@@ -961,11 +963,11 @@ export const LEAK_DETECTION = {
     helpProducts: [
         {
             imgPath: P100_IMG,
-            productName: "NovaTest P100 Compact GC",
+            productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
-            productName: "NovaTest P300 Integrated Compact GC (Beta)",
+            productName: "NovaTest P300 Integrated 便携式气相色谱仪 (Beta)",
         },
         {
             imgPath: SATIR2_IMG,
@@ -1000,18 +1002,18 @@ export const VEHICLE_EMISSIONS = {
     solutions: {
         para: [
             '自动采样、快速分析多种VOCs，即时计算结果，提供易懂的即时反馈',
-            '无需专业 GC 背景即可在一次测试中检测和分析多种 VOC',
+            '无需专业 气相色谱仪 背景即可在一次测试中检测和分析多种 VOC',
             '提供定制的分析方法，确保单次测试即可实现全面分析'
         ]
     },
     helpProducts: [
         {
             imgPath: P100_IMG,
-            productName: "NovaTest P100 Compact GC",
+            productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
-            productName: "NovaTest P300 Integrated Compact GC (Beta)",
+            productName: "NovaTest P300 Integrated 便携式气相色谱仪 (Beta)",
         },
         {
             imgPath: DV3000_IMG,
@@ -1024,7 +1026,7 @@ export const VEH_INDDOR = {
     header: {
         headImg: VEH_INDDOR_BG,
         head: '车辆室内空气质量',
-        text: '便携式 GC 可以在传统台式 GCS 无法到达的地方测试 VOC，并且可以帮助确保安全和质量，检测下限为亚苯。'
+        text: '便携式 气相色谱仪 可以在传统台式 气相色谱仪S 无法到达的地方测试 VOC，并且可以帮助确保安全和质量，检测下限为亚苯。'
     },
     description: [
         {
@@ -1045,18 +1047,18 @@ export const VEH_INDDOR = {
     solutions: {
         para: [
             '自动采样、快速分析多种VOCs，即时计算结果，提供易懂的即时反馈',
-            '无需专业 GC 背景即可在一次测试中检测和分析多种 VOC',
+            '无需专业 气相色谱仪 背景即可在一次测试中检测和分析多种 VOC',
             '提供定制的分析方法，确保单次测试即可实现全面分析'
         ]
     },
     helpProducts: [
         {
             imgPath: P100_IMG,
-            productName: "NovaTest P100 Compact GC",
+            productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
-            productName: "NovaTest P300 Integrated Compact GC (Beta)",
+            productName: "NovaTest P300 Integrated 便携式气相色谱仪 (Beta)",
         }
     ]
 }
@@ -1088,18 +1090,18 @@ export const FENCELINE_MONITORING = {
     solutions: {
         para: [
             '自动采样、快速分析多种VOCs，即时计算结果，提供易懂的即时反馈',
-            '无需专业 GC 背景即可在一次测试中检测和分析多种 VOC',
+            '无需专业 气相色谱仪 背景即可在一次测试中检测和分析多种 VOC',
             '设备专为现场使用而设计，非常坚固耐用，维护成本低，耗材要求低'
         ]
     },
     helpProducts: [
         {
             imgPath: P100_IMG,
-            productName: "NovaTest P100 Compact GC",
+            productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
-            productName: "NovaTest P300 Integrated Compact GC (Beta)",
+            productName: "NovaTest P300 Integrated 便携式气相色谱仪 (Beta)",
         },
         {
             imgPath: DV3000_IMG,
@@ -1134,7 +1136,7 @@ export const PETROCHEMICAL = {
     solutions: {
         para: [
             '自动采样和快速分析范围广泛的 VOC 并具有即时计算结果，提供易于理解的即时反馈',
-            '无需专业 GC 背景即可在一次测试中检测和分析多种 VOC',
+            '无需专业 气相色谱仪 背景即可在一次测试中检测和分析多种 VOC',
             '设备专为现场使用而设计，非常坚固耐用，维护成本低，耗材要求低'
         ]
     },
@@ -1145,7 +1147,7 @@ export const PETROCHEMICAL = {
         },
         {
             imgPath: P300_IMG,
-            productName: "NovaTest P300 Integrated Compact GC (Beta)",
+            productName: "NovaTest P300 Integrated 便携式气相色谱仪 (Beta)",
         },
         {
             imgPath: DV3000_IMG,
@@ -1159,7 +1161,7 @@ export const AMBIENT_AIR_MONITORING = {
     header: {
         headImg: AMBIENT_AIR_BG,
         head: '环境空气监测',
-        text: ' 便携式GC可以快速、实时检测sub-PPB级别的空气质量，从而可以监测任何地点的空气质量。'
+        text: ' 便携式气相色谱仪可以快速、实时检测sub-PPB级别的空气质量，从而可以监测任何地点的空气质量。'
     },
     description: [
         {
@@ -1207,18 +1209,18 @@ export const AMBIENT_AIR_MONITORING = {
     solutions: {
         para: [
             '自动采样和快速分析范围广泛的 VOC 并具有即时计算结果，提供易于理解的即时反馈',
-            '无需专业 GC 背景即可在一次测试中检测和分析多种 VOC',
+            '无需专业 气相色谱仪 背景即可在一次测试中检测和分析多种 VOC',
             '设备专为现场使用而设计，非常坚固耐用，维护成本低，耗材要求低'
         ]
     },
     helpProducts: [
         {
             imgPath: P100_IMG,
-            productName: "NovaTest P100 Compact GC",
+            productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
-            productName: "NovaTest P300 Integrated Compact GC (Beta)",
+            productName: "NovaTest P300 Integrated 便携式气相色谱仪 (Beta)",
         },
         {
             imgPath: DV3000_IMG,
@@ -1260,11 +1262,11 @@ export const LANDFILL_N_BIOGAS = {
     helpProducts: [
         {
             imgPath: P100_IMG,
-            productName: "NovaTest P100 Compact GC",
+            productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
-            productName: "NovaTest P300 Integrated Compact GC (Beta)",
+            productName: "NovaTest P300 Integrated 便携式气相色谱仪 (Beta)",
         },
         {
             imgPath: DV3000_IMG,
@@ -1300,14 +1302,14 @@ export const ODOR = {
     solutions: {
         para: [
             '自动采样和快速分析范围广泛的 VOC 并具有即时计算结果，提供易于理解的即时反馈',
-            '无需专业 GC 背景即可在一次测试中检测和分析多种 VOC',
+            '无需专业 气相色谱仪 背景即可在一次测试中检测和分析多种 VOC',
             '提供定制的分析方法，确保单次测试即可全面分析'
         ]
     },
     helpProducts: [
         {
             imgPath: P300_IMG,
-            productName: "NovaTest P300 Integrated Compact GC (Beta)",
+            productName: "NovaTest P300 Integrated 便携式气相色谱仪 (Beta)",
         },
         {
             imgPath: SATIR2_IMG,
@@ -1346,14 +1348,14 @@ export const VOCS_IN_WATER = {
     solutions: {
         para: [
             '对范围广泛的 VOC 进行自动采样和快速分析，可提供易于理解的即时反馈。持续测试可以在出现质量问题时立即发现，以便快速修复',
-            '无需专业 GC 背景即可在一次测试中检测和分析多种 VOC',
+            '无需专业 气相色谱仪 背景即可在一次测试中检测和分析多种 VOC',
             '设备专为现场使用而设计，非常坚固耐用，维护成本低，耗材要求低'
         ]
     },
     helpProducts: [
         {
             imgPath: P100_IMG,
-            productName: "NovaTest P100 Compact GC",
+            productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
@@ -1362,6 +1364,94 @@ export const VOCS_IN_WATER = {
         {
             imgPath: W1000_IMG,
             productName: "DV3000 实时空气监测器"
+        }
+    ]
+}
+
+// Indoor
+export const INDOOR_AIR_QUALITY = {
+    header: {
+        headImg: INDOOR_AIR_QUALITY_BG,
+        head: '室内空气质量',
+        text: '便携式气相色谱仪可以快速、实时检测SUB-PPB级别的空气质量，从而可以监控任何地点的空气质量。'
+    },
+    description: [
+        {
+            title: '了解空气质量',
+            para: [
+                '挥发性有机化合物 (VOC) 数量众多、种类繁多且无处不在，包括人造和天然存在的化合物。一些挥发性有机化合物对人体健康有害，对环境有害。 VOC 的来源多种多样，例如室内涂料、清洁产品、制冷剂、气体和燃料、汽车内饰材料分解、污染的地下水、电子制造、医药生产、食品和饮料生产、制造工厂等。人为 VOC 受法律管制，尤其是在室内，浓度最高。现场监测空气并立即产生结果，可以在小浓度 VOC 成为更大问题之前检测到它们的存在。',
+                'NovaTest P100 和 P300可以快速采样和分析任何位置的环境空气，使其成为排放测试的有用设备。该设备从环境空气中取样，无需任何额外的设备或样品制备。紧凑的设计使他们能够方便地测试传统台式设备无法进入的较小空间中的空气。它们能够在一次测试中以高灵敏度检测各种化合物，并且系统会自动生成带有计算结果的即时报告。这些功能可以轻松地用于生产线、停车场或检查车间，以快速评估车辆的排放。'
+            ]
+        }
+    ],
+    challenges: {
+        para: [
+            '有害 VOC 通常以难以检测的低浓度出现，需要以高灵敏度进行更快的采样和分析，以提供有效响应所需的即时反馈',
+            '综合分析往往需要使用多种技术进行多次测试，使测试变得复杂',
+            '室内空气可能含有多种来源的各种有害 VOC'
+        ]
+    },
+    solutions: {
+        para: [
+            '自动采样和快速分析范围广泛的 VOC 并具有即时计算结果，提供易于理解的即时反馈',
+            '无需专业 气相色谱仪 背景即可在一次测试中检测和分析多种 VOC',
+            '提供定制的分析方法，确保单次测试即可全面分析'
+        ]
+    },
+    helpProducts: [
+        {
+            imgPath: P100_IMG,
+            productName: "NovaTest P100 便携式气相色谱仪",
+        },
+        {
+            imgPath: P300_IMG,
+            productName: "NovaTest W1000 Online VOC Monitor (Alpha)",
+        },
+        {
+            imgPath: SATIR2_IMG,
+            productName: "SATIR V 系列气体检测相机"
+        }
+    ]
+}
+
+export const OCCUPATIONAL_HEALTH_SAFETY = {
+    header: {
+        headImg: OCCUPATIONAL_HEALTH_BG,
+        head: '职业健康和安全',
+        text: '方便、高效和准确地检测SUB-PPB级的挥发性化合物，确保工作场所环境更安全。'
+    },
+    description: [
+        {
+            title: '更安全的工作场所环境',
+            para: [
+                '挥发性有机化合物 (VOC) 数量众多、种类繁多且无处不在，包括人造和天然存在的化合物。一些挥发性有机化合物对人体健康有害，对环境有害。处理常见的工作场所材料（例如溶剂、油漆、密封剂和粘合剂）时会释放 VOC。人为 VOC 受法律管制，尤其是在室内，浓度最高。具有准确、实时检测的空气质量监测对于确保安全的工作条件非常重要。',
+                '目前，工业上普遍采用四气监测仪进行实时空气监测。这些监测器通常只测量氧气、可燃气体的爆炸下限、一氧化碳和硫化氢。因此，它们无法检测许多常见的有毒气体，例如 VOC，它们是许多工业过程的常见成分或副产品。这会导致员工经常受到保护不足，这会对健康产生负面影响，或者过度保护，这会限制生产力。',
+                'NovaTest P100 和 P300 可以在任何位置快速采样和分析环境空气，使其成为排放测试和泄漏检测的有用设备。该设备从环境空气中取样，无需任何额外的设备或样品制备。紧凑的设计使他们可以方便地测试传统台式设备无法到达的任何位置的空气，同时他们还能够在单次测试中以高灵敏度检测各种化合物，并且系统会自动生成即时报告并计算出结果。' 
+            ]
+        }
+    ],
+    challenges: {
+        para: [
+            '有害 VOC 通常以难以检测的低浓度出现，需要以高灵敏度进行更快的采样和分析，以提供有效响应所需的即时反馈',
+            '综合分析往往需要使用多种技术进行多次测试，使测试变得复杂',
+            '室内空气可能含有多种来源的各种有害 VOC'
+        ]
+    },
+    solutions: {
+        para: [
+            '自动采样和快速分析范围广泛的 VOC 并具有即时计算结果，提供易于理解的即时反馈，因此用户可以快速实施必要的健康和安全措施',
+            '只需一次测试即可在几分钟内检测和分析多种 VOC，无需专业 GC 背景即可执行',
+            '设备专为现场使用而设计，非常坚固耐用，维护成本低，耗材要求低'
+        ]
+    },
+    helpProducts: [
+        {
+            imgPath: P100_IMG,
+            productName: "NovaTest P100 便携式气相色谱仪",
+        },
+        {
+            imgPath: P300_IMG,
+            productName: "NovaTest W1000 Online VOC Monitor (Alpha)",
         }
     ]
 }
