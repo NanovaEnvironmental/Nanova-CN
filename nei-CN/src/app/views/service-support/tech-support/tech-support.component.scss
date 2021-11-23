@@ -23,5 +23,19 @@
 }
 
 .container {
-  border: 1px solid black;
+  margin-bottom: 50px;
+}
+
+.container h2 {
+  color: #67a538;
+}
+
+button {
+  background-color: #67a538;
+  color: #ffffff;
+}
+
+::selection {
+  background-color: #67a538;
+  color: #ffffff;
 }

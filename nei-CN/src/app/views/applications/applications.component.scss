@@ -21,3 +21,39 @@
 .hd-hd {
   padding-bottom: 20px;
 }
+
+.container {
+  margin-bottom: 50px;
+}
+
+.container h2 {
+  margin-bottom: 40px;
+  color: #67a538;
+}
+
+h6 {
+  color: #666666;
+  margin-top: 40px;
+}
+
+.col-inner-left {
+  padding-right: 30px;
+}
+
+.col-inner-right {
+  padding-left: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+button {
+  background-color: #67a538;
+  color: #ffffff;
+}
+
+::selection {
+  background-color: #67a538;
+  color: #ffffff;
+}

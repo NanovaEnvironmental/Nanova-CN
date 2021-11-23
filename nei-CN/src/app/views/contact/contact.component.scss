@@ -41,3 +41,13 @@ h5 {
 .container {
   padding-bottom: 50px;
 }
+
+button {
+  background-color: #67a538;
+  color: #ffffff;
+}
+
+::selection {
+  background-color: #67a538;
+  color: #ffffff;
+}

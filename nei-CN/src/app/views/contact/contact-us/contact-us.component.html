@@ -5,3 +5,42 @@
         <div>如有任何问题或意见，请与我们联系。</div>
     </div>
 </div>
+<div class="container" fxLayout="col">
+    <div class="col-md-5">
+        <h2>中国</h2>
+        <p>Phone: +86 0512-67901141 <br>
+            Fax: +86 0512-67091145 <br>
+            E-mail: service@nanovaenv.com <br>
+            Address: 1518 Donghuan Rd., Xinsu Building, RM 1201, Suzhou, Jiangsu Province</p>
+        <br>
+        <h2>美国</h2> 
+        <p>Phone: +1 (573)476-6355 <br> 
+            Fax: +1 (573)476-6355 <br>
+            E-mail: service@nanovaenv.com <br>
+            Address: 3338 Brown Station Rd., Columbia, MO 65202</p>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-6">
+        <h2>联系我们</h2>
+        <form>        
+            <div class="mb-3">
+                <input type="text" id="username" class="form-control" ngModel name="username" required placeholder="您的姓名">
+            </div>
+            <div class="mb-3">
+                <input type="text" id="email" class="form-control" ngModel name="email" required email placeholder="您的邮箱">
+            </div>
+            <div class="mb-3">
+                <input type="text" id="phone" class="form-control" ngModel name="email" required placeholder="电话号码">
+            </div>
+            <div class="mb-3"><textarea 
+                name="questionAnswer" 
+                rows="5.5"
+                class="form-control"
+                placeholder="留言"
+                ></textarea>
+            </div>
+        </form>
+        <button mat-raised-button>提交</button>
+    </div>
+</div>
+
