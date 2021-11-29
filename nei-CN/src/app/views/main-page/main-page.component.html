@@ -49,7 +49,7 @@
   <div class="col-sm-1"></div>
   <div class="col-sm-3">
     <h2>最新要闻</h2>
-    <div *ngFor="let event of events">
+    <div *ngFor="let event of events | slice:0:6; index as i">
       <span><a [href]="event.infoPath">{{ event.title }}</a></span>
       <p style="color: #67a538;">{{ event.date }}</p>
     </div>
