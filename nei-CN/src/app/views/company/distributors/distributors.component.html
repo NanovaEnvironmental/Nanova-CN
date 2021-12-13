@@ -6,11 +6,11 @@
     </div>
 </div>
 
-<div class="container">
-    <div class="colum">
+<div class="column" >
+  <div class="wrapper-inner mb-5"> 
         <h2>您附近的经销商</h2>
-        <h5>使用下面的菜单按国家/地区查看我们的分销合作伙伴。如果我们没有您所在国家/地区的经销商，请不要犹豫，直接与我们联系。</h5>
-        <div class="row">
+        <p>使用下面的菜单按国家/地区查看我们的分销合作伙伴。如果没有您所在国家/地区的经销商，请与我们联系。</p>
+        <div class="row mb-1">
             <mat-accordion>
                 <mat-expansion-panel>
                 <mat-expansion-panel-header>
@@ -27,7 +27,7 @@
                 </mat-expansion-panel>
             </mat-accordion>
         </div>
-        <div class="row">
+        <div class="row mb-1">
           <mat-accordion>
             <mat-expansion-panel>
               <mat-expansion-panel-header>
@@ -44,7 +44,7 @@
             </mat-expansion-panel>
           </mat-accordion>
         </div>
-        <div class="row">
+        <div class="row mb-1">
           <mat-accordion>
             <mat-expansion-panel>
               <mat-expansion-panel-header>
@@ -60,36 +60,45 @@
                 Website: www.li-ca.com</p>
             </mat-expansion-panel>
           </mat-accordion>
-         </div>
-    </div>
-</div>
-<div style="background-color: #f8f8f8;">
-    <div class="column">
-        <div class="row">
-            <h2>成为我们的经销商</h2>
-            <h5>我们正在积极寻找新的分销合作伙伴。如果您认为您有能力支持我们的客户和您所在地区的市场，请联系我们。严禁投放广告</h5>
-            <form fxLayout="column" #f="ngForm" (ngSubmit)="onSubmit(f)">
-                
-                <mat-form-field appearance="fill">
-                  <mat-label>Your Name</mat-label>
-                  <input 
-                  type="text" 
-                  matInput 
-                  ngModel 
-                  name="name"
-                  required>
-                </mat-form-field>
-                <mat-form-field appearance="fill">
-                    <mat-label>Your Company</mat-label>
+        </div>
+  </div>
+  <div class="wrapper-inner mb-5" style="background-color: #f8f8f8;">
+      <div class="column">
+          <div class="row">
+              <h2>成为我们的经销商</h2>
+              <p>我们正在积极寻找新的分销合作伙伴。如果您认为您有能力支持我们的客户和您所在地区的市场，请联系我们。严禁投放广告</p>
+              <!-- <form fxLayout="column" #f="ngForm" (ngSubmit)="onSubmit(f)">
+                  
+                  <mat-form-field appearance="fill" class="mb-3">
+                    <mat-label>您的姓名</mat-label>
                     <input 
                     type="text" 
                     matInput 
                     ngModel 
                     name="name"
                     required>
-                </mat-form-field>
-                <mat-form-field appearance="fill">
-                    <mat-label>Your Official Website</mat-label>
+                  </mat-form-field>
+                  <mat-form-field appearance="fill" class="mb-3">
+                      <mat-label>您的公司</mat-label>
+                      <input 
+                      type="text" 
+                      matInput 
+                      ngModel 
+                      name="name"
+                      required>
+                  </mat-form-field>
+                  <mat-form-field appearance="fill" class="mb-3">
+                      <mat-label>邮箱地址</mat-label>
+                      <input 
+                      type="email" 
+                      matInput 
+                      placeholder="Ex. pat@example.com" 
+                      ngModel 
+                      name="email"
+                      required>
+                  </mat-form-field>
+                  <mat-form-field appearance="fill" class="mb-3">
+                    <mat-label>您的网站</mat-label>
                     <input 
                     type="text" 
                     matInput 
@@ -97,26 +106,49 @@
                     name="website">
                 </mat-form-field>
                 <mat-form-field appearance="fill">
-                    <mat-label>Email</mat-label>
-                    <input 
-                    type="email" 
-                    matInput 
-                    placeholder="Ex. pat@example.com" 
-                    ngModel 
-                    name="email"
-                    required>
+                  <textarea matInput>留言</textarea>
                 </mat-form-field>
-                
-                <button  type="submit" mat-raised-button color="primary">Submit</button>
-              </form>  
-        </div>
-    </div>
+                  <div class="text-center mt-3">
+                    <button type="submit" mat-raised-button>提交</button>
+                  </div>
+                </form>   -->
+                <form>
+                  <div class="row mb-3">
+                      <div class="mb-3">
+                          <input type="text" id="username" class="form-control" ngModel name="username" required placeholder="您的姓名">
+                      </div>
+                      <div class="mb-3">
+                        <input type="text" id="company" class="form-control" ngModel name="username" required placeholder="您的公司">
+                      </div>
+                      <div class="mb-3">
+                          <input type="text" id="email" class="form-control" ngModel name="email" required email placeholder="您的邮箱">
+                      </div>
+                      <div class="mb-3">
+                        <input type="text" id="website" class="form-control" ngModel name="username" required placeholder="您的网站">
+                      </div>
+                      <div class="mb-3">
+                        <textarea 
+                      name="questionAnswer" 
+                      rows="5.5"
+                      class="form-control"
+                      placeholder="留言"
+                      ></textarea>
+                      </div>   
+                  </div>
+                  <div class="text-center">
+                      <button type="submit" class="btn">Submit</button>
+                  </div>   
+              </form>
+          </div>
+      </div>
+  </div>
+  <div class="wrapper-inner mb-5">
+      <div class="row">
+          <h2>发送邮件</h2>
+          <p>您也可以通过电子邮件联系我们，咨询我们的经销商或是如何成为经销商等类问题。</p>
+          <strong class="col-sm-2">
+            <a style="color: #67a538;" href="mailto:info@nanovaenv.com">联系我们</a>
+            </strong> 
+      </div>   
+  </div>
 </div>
-<div class="column">
-    <div class="row">
-        <h2>发送邮件请求</h2>
-        <h5>您也可以通过电子邮件联系我们，询问有关我们的经销商或成为经销商的问题。</h5>
-        <span class="col-sm-2">联系我们</span> 
-    </div>   
-</div>
-

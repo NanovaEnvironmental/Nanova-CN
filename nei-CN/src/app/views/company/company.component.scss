@@ -22,20 +22,29 @@
   padding-bottom: 20px;
 }
 
-.column {
-  padding: 20px 80px;
+// .column {
+//   padding: 20px 80px;
+// }
+
+// .row {
+//   margin-bottom: 2px;
+// }
+
+// .row-content {
+//   margin-bottom: 78px;
+// }
+
+.wrapper-inner {
+  padding: 20px 70px;
 }
 
-.row {
-  margin-bottom: 2px;
-}
-
-.row-content {
-  margin-bottom: 78px;
+.row-inner {
+  padding: 40px 80px;
 }
 
 .column h2 {
   color: #67a538;
+  padding-bottom: 10px;
 }
 
 .container h2 {
@@ -47,5 +56,20 @@ h5 {
 }
 
 .container {
-  padding-bottom: 50px;
+  padding-bottom: 80px;
+}
+
+button {
+  background-color: #7ac144;
+  width: 180px;
+  color: #f8f8f8;
+}
+
+button:hover {
+  background-color: #67a538;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
 }
