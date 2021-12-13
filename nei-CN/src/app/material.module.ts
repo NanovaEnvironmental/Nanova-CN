@@ -5,6 +5,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 
 
 const materialModules = [
@@ -13,7 +14,8 @@ const materialModules = [
     MatToolbarModule,
     MatMenuModule,
     MatButtonModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatCheckboxModule
 ]
 @NgModule({
     imports: [

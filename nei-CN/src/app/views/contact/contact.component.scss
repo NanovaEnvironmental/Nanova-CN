@@ -26,16 +26,33 @@
   padding: 20px 80px;
 }
 
-// .column h2 {
-//   color: #67a538;
-// }
+hr {
+  border: none;
+  border-top: 3px dotted #7ac144;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
 
 .container h2 {
   color: #67a538;
 }
 
-h5 {
-  color: #363636;
+h6 {
+  color: #ffffff;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.text-wrapper {
+  background-color: #7ac144;
+  padding: 5px;
+}
+
+.item-wrapper {
+  padding: 10px;
 }
 
 .container {
