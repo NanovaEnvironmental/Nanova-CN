@@ -27,9 +27,10 @@
   padding: 0px 15px;
 }
 
-.container img {
-  width: 209px;
-  height: 183px;
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
 }
 
 .container h2 {
@@ -48,6 +49,10 @@ a {
 
 button {
   background-color: #67a538;
+  color: #ffffff;
+}
+
+button a {
   color: #ffffff;
 }
 

@@ -61,10 +61,7 @@
                 </mat-expansion-panel-header>
                 <div fxLayout fxLayoutAlign="space-around center">
                     <div *ngFor="let video of product.videos.details">
-                        <video controls>
-                            <source src={{video.videoPath}} type="video/mp4">
-                            Your browser does not support the video tag.
-                          </video>
+                        <youtube-player [height]="250" [width]="300" videoId={{video.videoID}}></youtube-player>
                     </div>
                 </div>  
             </mat-expansion-panel>

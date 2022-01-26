@@ -431,6 +431,7 @@ export const SPECTROSCOPY_RESOURCE = [{
         ]
 }]
 
+//Products
 export const PRODUCT_P100 = {
     imgPath: P100_IMG,
     productName: "NovaTest P100 便携式气相色谱仪",
@@ -493,9 +494,9 @@ export const PRODUCT_P100 = {
      videos: {
             name: "视频",
             details: [
-                {videoPath: "https://i.ytimg.com/vi_webp/Y_sLjXN2kcc/maxresdefault.webp"},
-                {videoPath: "https://i.ytimg.com/vi_webp/-jaDj72qhgU/maxresdefault.webp"},
-                {videoPath: "https://i.ytimg.com/vi_webp/LoBJNMGb84Y/maxresdefault.webp"}
+                {videoID: "https://i.ytimg.com/vi_webp/Y_sLjXN2kcc/maxresdefault.webp"},
+                {videoID: "https://i.ytimg.com/vi_webp/-jaDj72qhgU/maxresdefault.webp"},
+                {videoID: "https://i.ytimg.com/vi_webp/LoBJNMGb84Y/maxresdefault.webp"}
             ]
         }
 
@@ -555,7 +556,7 @@ export const PRODUCT_P300 = {
      videos: {
             name: "视频",
             details: [
-                {videoPath: ""}
+                {videoID: ""}
             ]
         }
 
@@ -611,7 +612,7 @@ export const PRODUCT_W1000 = {
      videos: {
             name: "视频",
             details: [
-                {videoPath: ""}
+                {videoID: ""}
             ]
         }
 
@@ -678,9 +679,9 @@ export const PRODUCT_DV3000 = {
      videos: {
             name: "视频",
             details: [
-                {videoPath: "https://www.youtube.com/watch?v=evvPcZdvYWU"},
-                {videoPath: "https://www.youtube.com/watch?v=Yd8xcfRI7No"},
-                {videoPath: "https://www.youtube.com/watch?v=6UfnpNW00KA"}
+                {videoID: "evvPcZdvYWU"},
+                {videoID: "Yd8xcfRI7No"},
+                {videoID: "6UfnpNW00KA"}
             ]
         }
 
@@ -735,8 +736,8 @@ export const PRODUCT_PANDA = {
      videos: {
             name: "视频",
             details: [
-                {videoPath: "https://www.youtube.com/watch?v=WzTDkjFpKPo"},
-                {videoPath: "https://www.youtube.com/watch?v=_auzWMm7P8g"}
+                {videoID: "WzTDkjFpKPo"},
+                {videoID: "_auzWMm7P8g"}
             ]
         }
 
@@ -811,8 +812,8 @@ export const PRODUCT_HOTFIND = {
      videos: {
             name: "视频",
             details: [
-                {videoPath: "https://www.youtube.com/watch?v=XDqDElDHgeo"},
-                {videoPath: "https://www.youtube.com/watch?v=pJoTnIuqi0Q"}
+                {videoID: "XDqDElDHgeo"},
+                {videoID: "pJoTnIuqi0Q"}
             ]
         }
 
@@ -858,7 +859,7 @@ export const PRODUCT_SATIR2 = {
      videos: {
             name: "视频",
             details: [
-                {videoPath: ""}
+                {videoID: ""}
             ]
         }
 

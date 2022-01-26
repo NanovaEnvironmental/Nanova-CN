@@ -12,7 +12,7 @@ export class ProductsComponent implements OnInit {
   gasSamplePage = false;
   productPage = false;
   bgImg = GAS_SAMPLE_BG;
-
+  apiLoaded = false;
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
@@ -41,7 +41,22 @@ export class ProductsComponent implements OnInit {
           this.product = PRODUCT_SATIR2;
         }
       }
-    })
-  }
+    }
+    )
 
+    if(!this.apiLoaded) {
+      // This code loads the IFrame Player API code asynchronously, according to the instructions at
+      // https://developers.google.com/youtube/iframe_api_reference#Getting_Started
+      const tag = document.createElement('script');
+      tag.src = 'https://www.youtube.com/iframe_api';
+      document.body.appendChild(tag);
+      this.apiLoaded = true;
+    }
+
+    window.scroll({
+      top: 0, 
+      left: 0, 
+      behavior: 'smooth'
+    });
+  }
 }

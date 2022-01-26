@@ -5,6 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -44,7 +45,8 @@ import { ResourcesComponent } from './views/resources/resources.component';
     ServiceSupportModule,
     ContactModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
