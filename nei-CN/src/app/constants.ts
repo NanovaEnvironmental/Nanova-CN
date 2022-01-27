@@ -331,6 +331,7 @@ export const GAS_CHROMATOGRAPHY_RESOURCE = [
                 docs:[
                     {
                         title: "NovaTest P100手册",
+                        address:"https://www.nanovaenv.com/wp-content/uploads/2018/08/P100-Brochure-180711.pdf",
                         updated: "更新日期: 08/08/2017",
                         fileSize: "文件大小: 1 MB"
                     }
@@ -341,11 +342,13 @@ export const GAS_CHROMATOGRAPHY_RESOURCE = [
                 docs: [
                     {
                         title:"应用说明 1 – 使用 NovaTest P100 便携式气相色谱仪 分析环境 BTEX",
+                        address:"https://www.nanovaenv.com/wp-content/uploads/2018/06/Application-Note-1-Analysis-of-Environmental-BTEX-by-NovaTest-P100-Compact-GC.pdf",
                         updated: "更新日期: 08/08/2017",
                         fileSize: "文件大小: 353 KB"
                     },
                     {
                         title:"应用说明 2 – 使用 NovaTest P100 便携式气相色谱仪 分析车辆中的 BTEX",
+                        address:"https://www.nanovaenv.com/wp-content/uploads/2018/08/Application-Note-2-Analysis-of-BTEX-in-Vehivles-by-NovaTest-P100-Compact-tGC.pdf",
                         updated: "更新日期: 08/08/2017",
                         fileSize: "文件大小: 118 KB"
                     }
@@ -356,11 +359,13 @@ export const GAS_CHROMATOGRAPHY_RESOURCE = [
                 docs: [
                     {
                         title:"NovaTest 便携式气相色谱仪 气相色谱仪 可检测的化合物",
+                        address:"https://www.nanovaenv.com/wp-content/uploads/2018/11/Theoretically-Detectable-Compounds-for-NovaTest-Compact-GC-181128.pdf",
                         updated: "更新日期: 11/28/2018",
                         fileSize: "文件大小: 421 KB"
                     },
                     {
                         title:"NovaTest 便携式气相色谱仪 客户调查表",
+                        address:"https://www.nanovaenv.com/wp-content/uploads/2018/08/NovaTest-GC-Customer-Survey.docx",
                         updated: "更新日期: 08/23/2017",
                         fileSize: "文件大小: 48 KB"
                     }
@@ -376,6 +381,7 @@ export const GAS_CHROMATOGRAPHY_RESOURCE = [
                 docs:[
                     {
                         title: "NovaTest P300手册",
+                        address:"https://www.nanovaenv.com/wp-content/uploads/2018/11/P300-Brochure-180810.pdf",
                         updated: "更新日期: 11/16/2018",
                         fileSize: "文件大小: 1 MB"
                     }
@@ -386,11 +392,13 @@ export const GAS_CHROMATOGRAPHY_RESOURCE = [
                 docs: [
                     {
                         title:"NovaTest 便携式气相色谱仪 可检测的化合物",
+                        address:"https://www.nanovaenv.com/wp-content/uploads/2018/11/Theoretically-Detectable-Compounds-for-NovaTest-Compact-GC-181128.pdf",
                         updated: "更新日期: 11/28/2018",
                         fileSize: "文件大小: 421 KB"
                     },
                     {
                         title:"NovaTest 气相色谱仪 客户调查表",
+                        address:"https://www.nanovaenv.com/wp-content/uploads/2018/08/NovaTest-GC-Customer-Survey.docx",
                         updated: "更新日期: 08/23/2017",
                         fileSize: "文件大小: 48 KB"
                     }
@@ -406,6 +414,7 @@ export const GAS_CHROMATOGRAPHY_RESOURCE = [
                 docs: [
                     {
                         title:"NovaTest 气相色谱仪 客户调查表",
+                        address:"https://www.nanovaenv.com/wp-content/uploads/2018/08/NovaTest-GC-Customer-Survey.docx",
                         updated: "更新日期: 08/23/2017",
                         fileSize: "文件大小: 48 KB"
                     }
@@ -423,6 +432,7 @@ export const SPECTROSCOPY_RESOURCE = [{
                 docs:[
                     {
                         title: "NovaTest P300手册",
+                        address:"https://www.nanovaenv.com/wp-content/uploads/2018/04/DV3000-Brochure.pdf",
                         updated: "更新日期: 11/16/2018",
                         fileSize: "文件大小: 1 MB"
                     }
@@ -476,16 +486,19 @@ export const PRODUCT_P100 = {
         docs: [
             {
                 title: "NovaTest P100 – 手册",
+                address:"https://www.nanovaenv.com/wp-content/uploads/2018/08/P100-Brochure-180711.pdf",
                 update: "更新日期: 01/23/2019",
                 fileSize: "文件大小: 1 MB"
             },
             {
                 title: "应用说明 1 – 使用 NovaTest P100 便携式气相色谱仪分析环境 BTEX",
+                address:"https://www.nanovaenv.com/wp-content/uploads/2018/06/Application-Note-1-Analysis-of-Environmental-BTEX-by-NovaTest-P100-Compact-GC.pdf",
                 update: "更新日期: 08/08/2017",
                 fileSize: "文件大小: 353 MB"
             },
             {
                 title: "应用说明 1 – 使用 NovaTest P100 便携式气相色谱仪分析环境 BTEX",
+                address:"https://www.nanovaenv.com/wp-content/uploads/2018/08/Application-Note-2-Analysis-of-BTEX-in-Vehivles-by-NovaTest-P100-Compact-tGC.pdf",
                 update: "更新日期: 08/08/2017",
                 fileSize: "文件大小: 353 MB"
             }
@@ -494,9 +507,9 @@ export const PRODUCT_P100 = {
      videos: {
             name: "视频",
             details: [
-                {videoID: "https://i.ytimg.com/vi_webp/Y_sLjXN2kcc/maxresdefault.webp"},
-                {videoID: "https://i.ytimg.com/vi_webp/-jaDj72qhgU/maxresdefault.webp"},
-                {videoID: "https://i.ytimg.com/vi_webp/LoBJNMGb84Y/maxresdefault.webp"}
+                {videoID: "Y_sLjXN2kcc"},
+                {videoID: "-jaDj72qhgU"},
+                {videoID: "LoBJNMGb84Y"}
             ]
         }
 
@@ -548,6 +561,7 @@ export const PRODUCT_P300 = {
         docs: [
             {
                 title: "NovaTest P300手册",
+                address:"https://www.nanovaenv.com/wp-content/uploads/2018/11/P300-Brochure-180810.pdf",
                 updated: "更新日期: 01/23/2019",
                 fileSize: "文件大小: 1 MB"
             }
@@ -604,6 +618,7 @@ export const PRODUCT_W1000 = {
         docs: [
             {
                 title: "",
+                address:"",
                 updated: "",
                 fileSize: ""
             }
@@ -671,6 +686,7 @@ export const PRODUCT_DV3000 = {
         docs: [
             {
                 title: "DV3000手册",
+                address:"https://www.nanovaenv.com/wp-content/uploads/2018/04/DV3000-Brochure.pdf",
                 updated: "更新日期: 04/17/2018",
                 fileSize: "文件大小: 1 MB"
             }
@@ -728,6 +744,7 @@ export const PRODUCT_PANDA = {
         docs: [
             {
                 title: "用于新冠肺炎监测的红外和温度摄像机",
+                address:"https://www.nanovaenv.com/wp-content/uploads/2020/05/IR-Camera-and-Thermometer-NEI200429.pdf",
                 updated: "更新日期: 04/29/2020",
                 fileSize: "文件大小: 5.4 MB"
             }
@@ -804,6 +821,7 @@ export const PRODUCT_HOTFIND = {
         docs: [
             {
                 title: "用于新冠肺炎监测的红外和温度摄像机",
+                address:"https://www.nanovaenv.com/wp-content/uploads/2020/05/IR-Camera-and-Thermometer-NEI200429.pdf",
                 updated: "更新日期: 04/29/2020",
                 fileSize: "文件大小: 5.4 MB"
             }
@@ -851,6 +869,7 @@ export const PRODUCT_SATIR2 = {
         docs: [
             {
                 title: "",
+                address:"",
                 updated: "",
                 fileSize: ""
             }
@@ -918,14 +937,17 @@ export const AUTO_MAT_EMMISION = {
     helpProducts: [
         {
             imgPath: P100_IMG,
+            routerlink: "/products/novatestp100",
             productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
+            routerlink: "/products/novatestp300",
             productName: "NovaTest P300 Integrated 便携式气相色谱仪 (Beta)",
         },
         {
             imgPath: SATIR2_IMG,
+            routerlink: "/products/satirvseries",
             productName: "SATIR V 系列气体检测相机"
         }
     ]
@@ -959,14 +981,17 @@ export const LEAK_DETECTION = {
     helpProducts: [
         {
             imgPath: P100_IMG,
+            routerlink: "/products/novatestp100",
             productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
+            routerlink: "/products/novatestp300",
             productName: "NovaTest P300 集成便携式气相色谱仪 (Beta)",
         },
         {
             imgPath: SATIR2_IMG,
+            routerlink: "/products/satirvseries",
             productName: "SATIR V 系列气体检测相机"
         }
     ]
@@ -1001,14 +1026,17 @@ export const VEHICLE_EMISSIONS = {
     helpProducts: [
         {
             imgPath: P100_IMG,
+            routerlink: "/products/novatestp100",
             productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
+            routerlink: "/products/novatestp300",
             productName: "NovaTest P300 集成便携式气相色谱仪 (Beta)",
         },
         {
             imgPath: DV3000_IMG,
+            routerlink: "/products/dv3000",
             productName: "DV3000 实时空气监测器"
         }
     ]
@@ -1042,10 +1070,12 @@ export const VEH_INDDOR = {
     helpProducts: [
         {
             imgPath: P100_IMG,
+            routerlink: "/products/novatestp100",
             productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
+            routerlink: "/products/novatestp300",
             productName: "NovaTest P300 Integrated 便携式气相色谱仪 (Beta)",
         }
     ]
@@ -1081,14 +1111,17 @@ export const FENCELINE_MONITORING = {
     helpProducts: [
         {
             imgPath: P100_IMG,
+            routerlink: "/products/novatestp100",
             productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
+            routerlink: "/products/novatestp100",
             productName: "NovaTest P300 集成便携式气相色谱仪 (Beta)",
         },
         {
             imgPath: DV3000_IMG,
+            routerlink: "/products/dv3000",
             productName: "DV3000 实时空气监测器"
         }
     ]
@@ -1123,14 +1156,17 @@ export const PETROCHEMICAL = {
     helpProducts: [
         {
             imgPath: SATIR2_IMG,
+            routerlink: "/products/satirvseries",
             productName: "SATIR V 系列气体检测相机"
         },
         {
             imgPath: P300_IMG,
+            routerlink: "/products/novatestp300",
             productName: "NovaTest P300 集成便携式气相色谱仪 (Beta)",
         },
         {
             imgPath: DV3000_IMG,
+            routerlink: "/products/dv3000",
             productName: "DV3000 实时空气监测器"
         }
     ]
@@ -1192,14 +1228,17 @@ export const AMBIENT_AIR_MONITORING = {
     helpProducts: [
         {
             imgPath: P100_IMG,
+            routerlink: "/products/novatestp100",
             productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
+            routerlink: "/products/novatestp300",
             productName: "NovaTest P300 便携式集成气相色谱仪 (Beta)",
         },
         {
             imgPath: DV3000_IMG,
+            routerlink: "/products/dv3000",
             productName: "DV3000 实时空气监测器"
         }
     ]
@@ -1234,14 +1273,17 @@ export const LANDFILL_N_BIOGAS = {
     helpProducts: [
         {
             imgPath: P100_IMG,
+            routerlink: "/products/novatestp100",
             productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
+            routerlink: "/products/novatestp300",
             productName: "NovaTest P300 便携式集成气相色谱仪 (Beta)",
         },
         {
             imgPath: DV3000_IMG,
+            routerlink: "/products/dv3000",
             productName: "DV3000 实时空气监测器"
         }
     ]
@@ -1277,14 +1319,17 @@ export const ODOR = {
     helpProducts: [
         {
             imgPath: P300_IMG,
+            routerlink: "/products/novatestp300",
             productName: "NovaTest P300 便携式集成气相色谱仪 (Beta)",
         },
         {
             imgPath: SATIR2_IMG,
+            routerlink: "/products/satirvseries",
             productName: "SATIR V 系列气体检测相机"
         },
         {
             imgPath: DV3000_IMG,
+            routerlink: "/products/dv3000",
             productName: "DV3000 实时空气监测器"
         }
     ]
@@ -1319,15 +1364,18 @@ export const VOCS_IN_WATER = {
     helpProducts: [
         {
             imgPath: P100_IMG,
+            routerlink: "/products/novatestp100",
             productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
+            routerlink: "/products/novatestp300",
             productName: "NovaTest W1000 Online VOC Monitor (Alpha)",
         },
         {
             imgPath: W1000_IMG,
-            productName: "DV3000 实时空气监测器"
+            routerlink: "/products/novatestw1000",
+            productName: "NovaTest W1000 在线 VOC 监测仪"
         }
     ]
 }
@@ -1361,14 +1409,17 @@ export const INDOOR_AIR_QUALITY = {
     helpProducts: [
         {
             imgPath: P100_IMG,
+            routerlink: "/products/novatestp100",
             productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
+            routerlink: "/products/novatestp300",
             productName: "NovaTest W1000 在线 VOC 监测仪 (Alpha)",
         },
         {
             imgPath: SATIR2_IMG,
+            routerlink: "/products/satirvseries",
             productName: "SATIR V 系列气体检测相机"
         }
     ]
@@ -1403,10 +1454,12 @@ export const OCCUPATIONAL_HEALTH_SAFETY = {
     helpProducts: [
         {
             imgPath: P100_IMG,
+            routerlink: "/products/novatestp100",
             productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
+            routerlink: "/products/novatestp300",
             productName: "NovaTest W1000 在线 VOC 监测仪 (Alpha)",
         }
     ]
@@ -1441,14 +1494,17 @@ export const PHARMACEUTICAL_PRODUCTION = {
     helpProducts: [
         {
             imgPath: P100_IMG,
+            routerlink: "/products/novatestp100",
             productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
+            routerlink: "/products/novatestp300",
             productName: "NovaTest W1000 在线 VOC 监测仪 (Alpha)",
         },
         {
             imgPath: SATIR2_IMG,
+            routerlink: "/products/satirvseries",
             productName: "SATIR V 系列气体检测相机"
         }
     ]
@@ -1485,10 +1541,12 @@ export const BREATH_RESEARCH = {
     helpProducts: [
         {
             imgPath: P100_IMG,
+            routerlink: "/products/novatestp100",
             productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
+            routerlink: "/products/novatestp300",
             productName: "NovaTest W1000 在线 VOC 监测仪 (Alpha)",
         }
     ]
@@ -1524,16 +1582,37 @@ export const LABORATORY_RESEARCH = {
     helpProducts: [
         {
             imgPath: P100_IMG,
+            routerlink: "/products/novatestp100",
             productName: "NovaTest P100 便携式气相色谱仪",
         },
         {
             imgPath: P300_IMG,
+            routerlink: "/products/novatestp100",
             productName: "NovaTest W1000 在线 VOC 检测器 (Alpha)",
         },
         {
             imgPath: W1000_IMG,
+            routerlink: "/products/novatestw1000",
             productName: "DV3000 实时空气监测器"
         }
     ]
+}
+
+export const ApplicationMap: { [key: string]: any; } = {
+    "auto-material":  AUTO_MAT_EMMISION,
+    "leak-detection": LEAK_DETECTION,
+    "vehicle-emission": VEHICLE_EMISSIONS,
+    "vehicle-indoor-air-quality": VEH_INDDOR,
+    "fenceline-monitoring": FENCELINE_MONITORING,
+    "petrochemical": PETROCHEMICAL,
+    "ambient-air-monitoring": AMBIENT_AIR_MONITORING,
+    "landfill-and-biogas": LANDFILL_N_BIOGAS,
+    "odor": ODOR,
+    "vocs-in-water": VOCS_IN_WATER,
+    "indoor-air": INDOOR_AIR_QUALITY,
+    "occupational-safety": OCCUPATIONAL_HEALTH_SAFETY,
+    "pharmaceutical-production-and-processing": PHARMACEUTICAL_PRODUCTION,
+    "breath-research": BREATH_RESEARCH,
+    "laboratory-and-research": LABORATORY_RESEARCH
 }
 

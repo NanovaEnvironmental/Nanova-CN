@@ -18,7 +18,7 @@
                     </mat-panel-title>
                 </mat-expansion-panel-header>
                 <div *ngFor="let doc of material.docs">
-                    <p><strong>{{ doc.title }}</strong></p>
+                    <p><a href="{{doc.address}}"><strong>{{ doc.title }}</strong></a></p>
                     <p>{{ doc.updated }}</p>
                     <p>{{ doc.fileSize }}</p>
                 </div>

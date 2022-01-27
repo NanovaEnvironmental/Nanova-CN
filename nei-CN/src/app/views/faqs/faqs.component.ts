@@ -18,6 +18,12 @@ export class FaqsComponent implements OnInit {
 
   ngOnInit(): void {
     this.getProduct();
+    
+    window.scroll({
+      top: 0, 
+      left: 0, 
+      behavior: 'smooth'
+    });
   }
 
   getProduct(): void {

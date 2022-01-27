@@ -9,7 +9,7 @@
             <strong>{{ product.subtitle }}</strong>
             <p>{{ product.PN }}</p>
             <p>{{ product.description }}</p>
-            <button mat-flat-button>询价</button>
+            <button mat-flat-button routerLink="/request-quote">询价</button>
         </div>
     </div>
 
@@ -46,7 +46,7 @@
                     </mat-panel-title>
                 </mat-expansion-panel-header>
                 <div *ngFor="let doc of product.literatures.docs">
-                    <p><strong>{{ doc.title }}</strong></p>
+                    <p><a href="{{ doc.address }}"><strong>{{ doc.title }}</strong></a></p>
                     <p>{{ doc.updated }}</p>
                     <p>{{ doc.fileSize }}</p>
                 </div>   
@@ -59,9 +59,9 @@
                         {{ product.videos.name }}
                     </mat-panel-title>
                 </mat-expansion-panel-header>
-                <div fxLayout fxLayoutAlign="space-around center">
+                <div fxLayout fxLayoutAlign="space-between center">
                     <div *ngFor="let video of product.videos.details">
-                        <youtube-player [height]="250" [width]="300" videoId={{video.videoID}}></youtube-player>
+                        <youtube-player [height]="240" [width]="340" videoId={{video.videoID}}></youtube-player>
                     </div>
                 </div>  
             </mat-expansion-panel>
