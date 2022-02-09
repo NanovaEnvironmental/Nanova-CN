@@ -6,7 +6,7 @@
     </div>
 </div>
 
-<div class="container" *ngFor="let description of application.description">
+<div class="content" *ngFor="let description of application.description">
     <h2>{{description.title}}</h2>
     <div *ngFor="let p of description.para">
         <p>{{p}}</p>
@@ -14,27 +14,24 @@
 </div>
 
 <div class="wrapper" style="background-color: #f8f8f8">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-inner-left">
+    <div class="content row">
+            <div class="col-md-6">
                 <h2>业界挑战</h2>
                 <div *ngFor="let challenge of application.challenges">
                     <li>{{challenge}}</li>
                 </div>
             </div>
-            <div class="col-md-6 col-inner-right">
+            <div class="col-md-6">
                 <h2>解决方案</h2>
                 <div *ngFor="let solution of application.solutions">
                     <li>{{solution }}</li>
                 </div>
             </div>
-        </div>
     </div>
-
 </div>
 
 <div class="wrapper">
-    <div class="container">
+    <div class="content">
         <div class="center">
             <h2>了解更多</h2>
             <p>获取更多资讯，请联系我们</p>
@@ -44,11 +41,11 @@
 </div>
 
 <div class="wrapper" style="background-color: #f8f8f8">
-    <div class="container">
+    <div class="content">
         <h2 style="text-align: center;">应用产品</h2>
-        <div fxLayout="row">
+        <div class="row">
             <div class="col-md-4" *ngFor="let helpProduct of application.helpProducts" style="text-align: center;">
-                <a routerLink="{{helpProduct.routerlink}}"><img src="{{helpProduct.imgPath}}" style="height: 150px;"></a>
+                <a routerLink="{{helpProduct.routerlink}}"><img src="{{helpProduct.imgPath}}"></a>
                 <strong><h6>{{ helpProduct.productName }}</h6></strong>
             </div>
         </div>

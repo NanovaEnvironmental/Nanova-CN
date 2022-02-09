@@ -14,14 +14,14 @@ export class QuestionFormComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  sendEmail() {
-    this.url = "http://localhost:8080/sendEmail";
-    this.httpClient.get(this.url, {
-      responseType: 'text'
-   }).toPromise().then(function(res) {
-      console.log(res);
-    })
+  // sendEmail() {
+  //   this.url = "http://localhost:8080/sendEmail";
+  //   this.httpClient.get(this.url, {
+  //     responseType: 'text'
+  //  }).toPromise().then(function(res) {
+  //     console.log(res);
+  //   })
 
-  }
+  // }
 
 }

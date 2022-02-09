@@ -11,7 +11,7 @@ h4 {
 div > img {
   width: 165px;
   height: 140px;
-  padding: 25px 0px 10px;
+  padding: 20px 0px 20px;
 }
 
 a {
@@ -33,16 +33,10 @@ a > img {
   font-size: 14px;
 }
 
-// .footer-blocks {
-//   // position: relative;
-//   // padding: 0px 15px;
-//   // margin-left: 50px;
-//   // margin-right: 50px;
-// }
-
-// .block {
-//   padding: 10px 30px 40px 60px;
-// }
+ul {
+  margin: 0;
+  padding: 0 0 20px 0;
+}
 
 ul li {
   list-style-type: none;
@@ -51,7 +45,8 @@ ul li {
 
 .postfooter {
   background-color: #f8f8f8;
-  padding: 40px 0px;
+  padding: 40px 55px;
+  color: #565656;
 }
 
 .container {

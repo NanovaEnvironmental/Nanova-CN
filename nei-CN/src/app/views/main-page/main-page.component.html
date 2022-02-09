@@ -25,8 +25,8 @@
   </div>
 </div>
 
-<div class="container" fxLayout="row">
-  <div class="col-sm-8">
+<div class="content row">
+  <div class="col-sm-8 inner-content">
     <h2>明星产品</h2>
     <div class="row">
       <div class="col-sm-4">
@@ -48,10 +48,10 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-1"></div>
-  <div class="col-sm-3">
+  <div class="col-sm-1 inner-content"></div>
+  <div class="col-sm-3 inner-content">
     <h2>最新要闻</h2>
-    <div *ngFor="let event of events | slice:0:6; index as i">
+    <div *ngFor="let event of events | slice:0:5; index as i">
       <span><a [href]="event.infoPath">{{ event.title }}</a></span>
       <p style="color: #67a538;">{{ event.date }}</p>
     </div>

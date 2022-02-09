@@ -6,7 +6,7 @@
     </div>
 </div>
 
-<div class="container" *ngIf="showContent">
+<div class="content" *ngIf="showContent">
     <div class="row" *ngFor="let resource of resources">
         <h2 style="text-align: left;">{{ resource.header }}</h2>
    
@@ -28,7 +28,7 @@
     </div>
 </div>
 
-<div class="container" *ngIf="showSensor">
+<div class="content" *ngIf="showSensor">
     <div class="row">
         <h2>什么是PID?</h2>
         <p>当气体分子暴露于能量非常高的光子时，它们会被分解成电子和带正电的离子。这些产生电流的离子由传感单元检测，反映样品的浓度信息。光电离检测器 (PID) 是一种使用通电的光源产生光子并检测信号的系统。电离势小于光子能量的化学物质将会被检测到。</p>

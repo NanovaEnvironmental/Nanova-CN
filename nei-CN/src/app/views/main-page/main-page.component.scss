@@ -22,18 +22,22 @@
   padding-bottom: 20px;
 }
 
-.container {
-  margin: 0px 55px;
-  padding: 0px 15px;
+.content {
+  padding: 0px 55px;
 }
 
-img {
+.inner-content {
+  padding-bottom: 40px;
+}
+
+.row img {
   height: auto;
   max-width: 100%;
   vertical-align: top;
+  margin-bottom: 35px;
 }
 
-.container h2 {
+.row h2 {
   color: #67a538;
   margin-bottom: 50px;
 }
@@ -43,13 +47,14 @@ a {
   text-decoration: none;
 }
 
-.row p {
-  margin: 50px 15px 50px 0;
-}
+// .row p {
+//   margin: 50px 15px 50px 0;
+// }
 
 button {
   background-color: #67a538;
   color: #ffffff;
+  margin-top: 15px;
 }
 
 button a {
