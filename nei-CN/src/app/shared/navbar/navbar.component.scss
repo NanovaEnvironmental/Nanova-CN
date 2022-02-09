@@ -27,8 +27,20 @@
   font-size: medium;
 }
 
+.a {
+  text-decoration: none;
+}
+
 span {
   font-size: medium;
   margin-left: 580px;
   font-family: serif;
+}
+
+mat-sidenav {
+  margin: 16px;
+  width: 200px;
+  border-right: none;
+  padding: 16px;
+  text-align: center;
 }

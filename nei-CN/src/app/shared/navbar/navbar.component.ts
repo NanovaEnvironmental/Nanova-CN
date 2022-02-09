@@ -9,10 +9,19 @@ import { LOGO_IMG, TEL } from 'src/app/constants';
 export class NavbarComponent implements OnInit {
   navImage = LOGO_IMG;
   tel = TEL;
+  isShowing: boolean = true;
   
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  toggleSidenav() {
+    this.isShowing = !this.isShowing;
+ }
+ 
+ callMethods() {
+     this.toggleSidenav();
+ }
 
 }

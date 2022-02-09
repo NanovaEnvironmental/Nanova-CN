@@ -1,10 +1,10 @@
 <footer>
     <div class="prefooter">  
-        <div class="footer-blocks" fxLayout fxLayoutAlign="center start">
-            <div class="col-md-3 col-sm-6" fxLayoutAlign="center center">
+        <div fxLayoutAlign="space-around start">
+            <div fxLayoutAlign="center center">
                 <img [src]="footImg">
             </div>
-            <div class="col-md-3 col-sm-6 block">
+            <div>
                 <ul>
                     <li><h4>联系我们</h4></li>
                     <li>周一至周五，8AM-5PM</li>
@@ -26,27 +26,22 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-3 col-sm-6 block">
+            <div>
                 <ul>
                     <li><h4>快速链接</h4></li>
                     <li><a routerLink="/news-and-events">新闻与事件</a></li>
                     <li><a routerLink="/faqs/p100">常见问题</a></li>
                     <li><a routerLink="/service-supports">客户服务</a></li>
                     <li><a routerLink="/tech-supports">技术支持</a></li>
-
                 </ul>
             </div>
-            <div class="col-md-3 col-sm-6 block">
+            <div>
                 <h4>订阅我们</h4>
-                <form fxLayout="column" fxLayoutAlign="center center">
-                    <mat-form-field appearance="fill">
-                      <mat-label>Email</mat-label>
-                      <input type="email" matInput placeholder="Ex. pat@example.com">
-                    </mat-form-field>
+                <form>
+                    <input type="text" id="email" class="form-control" ngModel name="email" required email placeholder="Ex. pat@example.com">  
                 </form>
                 
-                <button mat-button>订阅</button>
-                   
+                <button mat-button>订阅</button>   
             </div>
         </div>
     </div>
