@@ -13,19 +13,25 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img [src]="homeImg3" class="d-block w-100 tp-bgimg">
-      </div>
-      <div class="carousel-item">
-        <img [src]="homeImg3" class="d-block w-100 tp-bgimg">
-      </div>
-      <div class="carousel-item">
         <img [src]="homeImg1" class="d-block w-100 tp-bgimg">
+        <div class="tx-wrapper">
+          <div @fadeOne class="hd-hd"><h2>让世界变得更美好</h2></div>
+          <div @fadeTwo>专业专注超越行业标准，创新促建生态文明</div>
+          <div @fadeTwo>WITH CUTTING-EDGE TECHNOLOGIES AND INNOVATIONS BEYOND INDUSTRY STANDARD </div>
+          <div><button mat-button routerLink="products/novatestp100">了解我们的产品</button></div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img [src]="homeImg2" class="d-block w-100 tp-bgimg">
+      </div>
+      <div class="carousel-item">
+        <!-- <img [src]="homeImg3" class="d-block w-100 tp-bgimg"> -->
       </div>
     </div>
   </div>
 </div>
 
-<div class="content row">
+<div @fadeThree class="content row">
   <div class="col-sm-8 inner-content">
     <h2>明星产品</h2>
     <div class="row">

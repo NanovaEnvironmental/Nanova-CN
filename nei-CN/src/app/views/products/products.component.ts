@@ -1,11 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { GAS_SAMPLE_BG, PRODUCT_DV3000, PRODUCT_GAS_SAMPLING_BAGS, PRODUCT_HOTFIND, PRODUCT_P100, PRODUCT_P300, PRODUCT_PANDA, PRODUCT_SATIR2, PRODUCT_W1000, TEDLAR_BAG_IMG } from 'src/app/constants';
+import {trigger, style, animate, transition} from '@angular/animations';
 
 @Component({
   selector: 'app-products',
   templateUrl: './products.component.html',
-  styleUrls: ['./products.component.scss']
+  styleUrls: ['./products.component.scss'],
+  animations: [
+    trigger('fade', [ 
+      transition('void => *', [
+        style({ opacity: 0 }), 
+        animate(2000, style({opacity: 1}))
+      ]) 
+    ])
+  ]
 })
 export class ProductsComponent implements OnInit {
   product: any;
