@@ -16,12 +16,6 @@ const fadeInTwo = trigger('fadeTwo', [
   ]) 
 ])
 
-const fadeInThree = trigger('fadeThree', [ 
-  transition('void => *', [
-    style({ opacity: 0 }), 
-    animate(3000, style({opacity: 1}))
-  ]) 
-])
 
 
 @Component({
@@ -30,8 +24,7 @@ const fadeInThree = trigger('fadeThree', [
   styleUrls: ['./main-page.component.scss'],
   animations: [
     fadeInOne,
-    fadeInTwo,
-    fadeInThree
+    fadeInTwo
   ]
 })
 export class MainPageComponent implements OnInit {
