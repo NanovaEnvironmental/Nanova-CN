@@ -37,11 +37,10 @@
             </div>
             <div class="col-sm-3" fxLayout="column" fxLayoutAlign="center center">
                 <h4>订阅我们</h4>
-                <form>
-                    <input type="text" id="email" class="form-control" ngModel name="email" required email placeholder="Ex. pat@example.com">  
+                <form [formGroup]="subscribeForm" (ngSubmit)="onSubmit()">
+                    <input type="text" id="email" class="form-control" formControlName="useremail" required email placeholder="Ex. pat@example.com">  
+                    <button mat-button type="submit" [disabled]="!subscribeForm.valid">订阅</button> 
                 </form>
-                
-                <button mat-button>订阅</button>   
             </div>
         </div>
     </div>

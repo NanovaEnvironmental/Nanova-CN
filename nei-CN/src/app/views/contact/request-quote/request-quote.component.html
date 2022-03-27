@@ -10,25 +10,25 @@
     <h2>在线咨询</h2>
     <p>请告诉我们您想要了解什么信息。我们会尽快与您联系！</p>
  
-    <form>
+    <form [formGroup]="quoteForm" (ngSubmit)="onSubmit()">
         <div class="text-wrapper mb-3">
             <h6>您的联系方式</h6>
         </div>
         <div class="row mb-3">
             <div class="col-md-6">
                 <div class="mb-3">
-                    <input type="text" id="username" class="form-control" ngModel name="username" required placeholder="您的姓名">
+                    <input type="text" id="username" class="form-control"  formControlName="username" required placeholder="您的姓名">
                 </div>
                 <div class="mb-3">
-                    <input type="text" id="email" class="form-control" ngModel name="email" required email placeholder="您的邮箱">
+                    <input type="text" id="email" class="form-control"  formControlName="email" required email placeholder="您的邮箱">
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="mb-3">
-                    <input type="text" id="phone" class="form-control" ngModel name="email" required placeholder="电话号码">
+                    <input type="text" id="phone" class="form-control"  formControlName="phone" required placeholder="电话号码">
                 </div>
                 <div class="mb-3">
-                    <input type="text" id="company" class="form-control" ngModel name="company" required placeholder="您的公司">
+                    <input type="text" id="company" class="form-control"  formControlName="company" required placeholder="您的公司">
                   </div>
             </div>
         </div>
@@ -37,12 +37,12 @@
         </div>
         <div class="row item-wrapper mb-3">
             <div class="col-md-6">
-                <mat-checkbox color="primary">NovaTest P100 便携式气相色谱仪</mat-checkbox><br>
-                <mat-checkbox color="primary">DV3000 实时空气监测仪</mat-checkbox>
+                <mat-checkbox type="checkbox" formControlName="NovaTestP100" color="primary">NovaTest P100 便携式气相色谱仪</mat-checkbox><br>
+                <mat-checkbox type="checkbox" formControlName="DV3000" color="primary">DV3000 实时空气监测仪</mat-checkbox>
             </div>
             <div class="col-md-6">
-                <mat-checkbox color="primary">SATIR V80 红外相机</mat-checkbox><br>
-                <mat-checkbox color="primary">SATIR V90 红外相机</mat-checkbox>
+                <mat-checkbox type="checkbox" formControlName="SATIRV80" color="primary">SATIR V80 红外相机</mat-checkbox><br>
+                <mat-checkbox type="checkbox" formControlName="SATIRV90" color="primary">SATIR V90 红外相机</mat-checkbox>
             </div>
         </div>
         <div class="text-wrapper mb-3">
@@ -51,14 +51,14 @@
         <p style="color: #cacaca; margin-left: 5px;">由于我们的大多数产品都非常灵活，可根据各种应用进行定制，尽可能详细地描述您的应用有助于我们更好地了解您的要求并生成更准确的报价。</p>
         <div class="mb-3">
             <textarea 
-            name="questionAnswer" 
+            formControlName="comment" 
             rows="5.5"
             class="form-control"
             placeholder="留言"
             ></textarea>
         </div>
         <div class="text-center mb-5">
-            <button type="submit" class="btn">确认提交</button>
+            <button type="submit" class="btn" [disabled]="!quoteForm.valid">确认提交</button>
         </div>
     </form>
     <hr>

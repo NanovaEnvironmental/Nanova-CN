@@ -4,6 +4,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -46,6 +47,7 @@ import { ResourcesComponent } from './views/resources/resources.component';
     ServiceSupportModule,
     ContactModule,
     FormsModule,
+    ReactiveFormsModule,
     HttpClientModule,
     YouTubePlayerModule,
     NgbModule

@@ -1,6 +1,6 @@
 import { NgModule } from "@angular/core";
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { FormsModule } from "@angular/forms";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { MaterialModule } from "src/app/material.module";
 
 import { AboutUsComponent } from './about-us/about-us.component';
@@ -18,7 +18,8 @@ import { JoinUsComponent } from './join-us/join-us.component';
   imports: [
     FlexLayoutModule,
     MaterialModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class CompanyModule { }

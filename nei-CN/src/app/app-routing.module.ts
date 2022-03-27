@@ -6,7 +6,6 @@ import { BusinessPartnersComponent } from './views/company/business-partners/bus
 import { DistributorsComponent } from './views/company/distributors/distributors.component';
 import { JoinUsComponent } from './views/company/join-us/join-us.component';
 import { ContactUsComponent } from './views/contact/contact-us/contact-us.component';
-import { RequestMoreInfoComponent } from './views/contact/request-more-info/request-more-info.component';
 import { RequestQuoteComponent } from './views/contact/request-quote/request-quote.component';
 import { FaqsComponent } from './views/faqs/faqs.component';
 import { MainPageComponent } from './views/main-page/main-page.component';
@@ -24,7 +23,6 @@ const routes: Routes = [
   { path: 'business-partners', component: BusinessPartnersComponent },
   { path: 'our-distributors', component: DistributorsComponent },
   { path: 'open-positions', component: JoinUsComponent },
-  { path: 'request-more-info', component: RequestMoreInfoComponent },
   { path: 'request-quote', component: RequestQuoteComponent },
   { path: 'contact-us', component: ContactUsComponent},
   { path: 'news-and-events', component: NewsAndEventsComponent},

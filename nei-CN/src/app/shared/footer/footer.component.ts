@@ -1,4 +1,6 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
 import { COPY_RIGHT, FACEBOOK_IMG, LINKEDIN_IMG, LOGO_FOOT, TWITTER_IMG, YOUTUBE_IMG } from 'src/app/constants';
 
 @Component({
@@ -13,11 +15,26 @@ export class FooterComponent implements OnInit {
   faceBookImg = FACEBOOK_IMG;
   linkedInImg = LINKEDIN_IMG;
   copyRight = COPY_RIGHT;
+  url= 'http://localhost:8080/api/email';
+  subscribeForm = new FormGroup({
+    useremail: new FormControl('')
+  })
 
 
-  constructor() { }
+  constructor(private https: HttpClient) { }
 
   ngOnInit(): void {
+  }
+
+  onSubmit() {
+    const info = this.subscribeForm.controls.useremail.value
+    this.https.get(`${this.url}/${info} subscribed us`).subscribe(
+      () => {
+        this.subscribeForm.reset();
+      }
+    );
+
+    //TO DO: notification popup
   }
 
 }
