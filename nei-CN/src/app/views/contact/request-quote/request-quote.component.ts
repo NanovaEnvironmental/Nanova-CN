@@ -10,7 +10,7 @@ import { REQUEST_QUOTE_BG } from 'src/app/constants';
 })
 export class RequestQuoteComponent implements OnInit {
   bgImg = REQUEST_QUOTE_BG;
-  url= 'http://localhost:8080/api/email';
+  url= 'http://ec2-54-91-217-250.compute-1.amazonaws.com:8083/api/email';
   quoteForm = new FormGroup({
     username: new FormControl(''),
     email: new FormControl(''),
@@ -39,11 +39,8 @@ export class RequestQuoteComponent implements OnInit {
                 + 'SATIRV90: ' + this.quoteForm.controls.SATIRV90.value + `\n`
                 + '留言: ' + this.quoteForm.controls.comment.value + `\n`;
 
-    this.https.get(`${this.url}/${info}`).subscribe(
-      () => {
-        this.quoteForm.reset();
-      }
-    );
+    this.https.get(`${this.url}/${info}`).subscribe();
+    this.quoteForm.reset();
+    alert( "您已发送！");
   }
-
 }

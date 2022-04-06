@@ -10,7 +10,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class DistributorsComponent implements OnInit {
   bgImg = BUSI_PART_BG;
-  url= 'http://localhost:8080/api/email';
+  url= 'http://ec2-54-91-217-250.compute-1.amazonaws.com:8083/api/email';
   distriorsForm = new FormGroup({
     username: new FormControl(''),
     company: new FormControl(''),
@@ -31,13 +31,9 @@ export class DistributorsComponent implements OnInit {
                 + '网站: ' + this.distriorsForm.controls.website.value + `\n`
                 + '留言: ' + this.distriorsForm.controls.comment.value + `\n`;
 
-    this.https.get(`${this.url}/${info}`).subscribe(
-      () => {
-        console.log(console.log(info));
-      }
-    );
-
+    this.https.get(`${this.url}/${info}`).subscribe();
     this.distriorsForm.reset();
+    alert( "您已发送！");
   }
 
 }

@@ -1,11 +1,11 @@
 <footer>
     <div class="prefooter">  
-        <div class="row" fxLayoutAlign="space-around start">
+        <div class="row">
             <div class="col-sm-3" fxLayoutAlign="center center">
                 <img [src]="footImg">
             </div>
             <div class="col-sm-3">
-                <ul fxLayout="column" fxLayoutAlign="center center">
+                <ul fxLayout="column" fxLayoutAlign="center center" style="padding: 0px 45px;">
                     <li><h4>联系我们</h4></li>
                     <li>周一至周五，8AM-5PM</li>
                     <li>电话：+1 (573)476-6355</li>
@@ -35,12 +35,15 @@
                     <li><a routerLink="/tech-supports">技术支持</a></li>
                 </ul>
             </div>
-            <div class="col-sm-3" fxLayout="column" fxLayoutAlign="center center">
-                <h4>订阅我们</h4>
-                <form [formGroup]="subscribeForm" (ngSubmit)="onSubmit()">
-                    <input type="text" id="email" class="form-control" formControlName="useremail" required email placeholder="Ex. pat@example.com">  
-                    <button mat-button type="submit" [disabled]="!subscribeForm.valid">订阅</button> 
-                </form>
+            <div class="col-sm-3">
+                <div fxLayout="column" fxLayoutAlign="center center">
+                    <h4>订阅我们</h4>
+                    <form [formGroup]="subscribeForm" (ngSubmit)="onSubmit()" fxLayout="column" fxLayoutAlign="center center">
+                        <input type="text" id="email" class="form-control" formControlName="useremail" required email placeholder="Ex. pat@example.com">  
+                        <button mat-button type="submit" [disabled]="!subscribeForm.valid">订阅</button>
+                        <p> {{result}} </p>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

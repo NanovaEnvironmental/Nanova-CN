@@ -8,7 +8,7 @@ import { FormControl, FormGroup } from '@angular/forms';
   styleUrls: ['./question-form.component.scss']
 })
 export class QuestionFormComponent implements OnInit {
-  url= 'http://localhost:8080/api/email';
+  url= 'http://ec2-54-91-217-250.compute-1.amazonaws.com:8083/api/email';
 
   questionForm = new FormGroup({
     username: new FormControl(''),
@@ -29,12 +29,8 @@ export class QuestionFormComponent implements OnInit {
                 + '电话: ' + this.questionForm.controls.phone.value + `\n`
                 + '留言: ' + this.questionForm.controls.comment.value + `\n`;
 
-    this.https.get(`${this.url}/${info}`).subscribe(
-      () => {
-        console.log(console.log(info));
-      }
-    );
-
+    this.https.get(`${this.url}/${info}`).subscribe();
     this.questionForm.reset();
+    alert( "您已发送！");
   }
 }

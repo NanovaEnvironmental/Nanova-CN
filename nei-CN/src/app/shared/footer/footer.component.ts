@@ -15,10 +15,11 @@ export class FooterComponent implements OnInit {
   faceBookImg = FACEBOOK_IMG;
   linkedInImg = LINKEDIN_IMG;
   copyRight = COPY_RIGHT;
-  url= 'http://localhost:8080/api/email';
+  url= 'http://ec2-54-91-217-250.compute-1.amazonaws.com:8083/api/email';
   subscribeForm = new FormGroup({
     useremail: new FormControl('')
   })
+  result = "";
 
 
   constructor(private https: HttpClient) { }
@@ -28,13 +29,8 @@ export class FooterComponent implements OnInit {
 
   onSubmit() {
     const info = this.subscribeForm.controls.useremail.value
-    this.https.get(`${this.url}/${info} subscribed us`).subscribe(
-      () => {
-        this.subscribeForm.reset();
-      }
-    );
-
-    //TO DO: notification popup
+    this.https.get(`${this.url}/${info} 订阅了我们`).subscribe();
+    this.subscribeForm.reset();
+    alert( "订阅成功！");
   }
-
 }
